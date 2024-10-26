@@ -1,0 +1,14 @@
+name: CURIUM-1
+norad: 98881
+data:
+  &tlm Telemetry:
+    unknown
+transmitters:
+  50k FSK downlink:
+    frequency: 436.240e+6
+    modulation: FSK
+    baudrate: 50000
+    framing: CCSDS Uncoded
+    frame size: 452
+    data:
+    - *tlm

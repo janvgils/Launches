@@ -1,0 +1,27 @@
+name: GRBBETA
+norad: 98882
+data:
+  &tlma AX25 Telemetry:
+    telemetry: ax25
+  &tlmc csp Telemetry:
+    telemetry: csp
+  &tlm Unknown Telemetry:
+    unknown
+transmitters:
+  9k6 FSK UHF:
+    frequency: 436.785e+6
+    modulation: FSK
+    baudrate: 9600
+    deviation: 2400
+    framing: AX.25 G3RUH
+    data:
+    - *tlmc
+  100k FSK:
+    frequency: 2405e+6
+    modulation: FSK
+    baudrate: 100000
+    deviation: 25000
+    framing: MRC-100 RA
+    frame size: 126
+    data:
+    - *tlm
