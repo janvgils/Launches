@@ -12,3 +12,6 @@ Follow [this link](https://community.libre.space/t/soyuz-2-1b-fregat-vostochny-l
 ### VL-27-06-2023: Soyuz-2.1b / Fregat Vostochny launch 2023-06-27 11:34 UTC
 
 Follow [this link](https://community.libre.space/t/soyuz-2-1b-fregat-vostochny-launch-2023-06-27-11-34-utc/10446) to futher launch details that are shared on the SatNOGS community page.
+
+### PL-16-05-2024: Soyuz-2.1b / Fregat Plesetsk launch 2024-05-16 21:21:29 UTC
+
