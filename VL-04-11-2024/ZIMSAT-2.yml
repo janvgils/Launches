@@ -1,0 +1,13 @@
+name: ZIMSAT-2
+norad: 98777
+data:
+  &tlm AX25 telemetry:
+    telemetry: ax25
+transmitters:
+  1k135 AX25 FSK downlink:
+    frequency: 437.050e+6
+    modulation: AFSK
+    baudrate: 1135
+    framing: AX.25
+    data:
+    - *tlm
