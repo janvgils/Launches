@@ -1,5 +1,5 @@
 # Launches
-Information sharing on coming launches
+Information sharing on coming and previous launches
 ___
 
 ### VL-04-11-2024: Soyuz-2.1b / Fregat - Vostochny Launch - 2024-11-04 xx:xx UTC
