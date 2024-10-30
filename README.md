@@ -7,6 +7,8 @@ Follow [this link](https://community.libre.space/t/soyuz-2-1b-fregat-vostochny-l
 
 * In this launch there will be satellites using GEOSCAN framing with an alternative length, make sure you have an updated gr-satellites installed.
 
+___
+
 ### FG-09-07-2024: Ariane 6 VA262 - French Guiana - 2024-07-09 19:00 UTC
 
 Follow [this link](https://community.libre.space/t/ariane-6-va262-2024-07-09-19-00-utc/11959) to further launch details that are shared on the SatNOGS community page.
