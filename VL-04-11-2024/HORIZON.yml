@@ -3,13 +3,14 @@ alternative_names:
   - RS59S
 norad: 98793
 data:
-  &tlm AX25 telemetry:
-    telemetry: ax25
+   &tlm Telemetry:
+     unknown
 transmitters:
-  9k6 USP FSK downlink:
-    frequency: 435.430e+6
-    modulation: FSK
-    baudrate: 9600
-    framing: AX.25 G3RUH
-    data:
-    - *tlm
+   9k6 FSK downlink:
+     frequency: 435.430e+6
+     modulation: FSK
+     baudrate: 9600
+     framing: GEOSCAN
+     frame size: 74
+     data:
+     - *tlm
