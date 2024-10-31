@@ -1,13 +1,20 @@
 name: NOKHCHO
 alternative_names:
   - RS79S
-norad: 99999
+norad: 98782
 data:
   &tlm AX25 telemetry:
     telemetry: ax25
 transmitters:
   1k135 AX25 FSK downlink:
     frequency: 437.550e+6
+    modulation: AFSK
+    baudrate: 1135
+    framing: AX.25
+    data:
+    - *tlm
+  1k135 AX25 FSK downlink:
+    frequency: 435.750e+6
     modulation: AFSK
     baudrate: 1135
     framing: AX.25
