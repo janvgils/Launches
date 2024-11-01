@@ -1,0 +1,28 @@
+name: ASRTU-1
+alternative_names:
+  - BJ2CR 
+  - RS64S
+norad: 99999
+data:
+  &tlm Telemetry:
+    telemetry: by70_1
+  &image Image:
+    image: by70_1
+  &codec2 Codec2:
+    decoder: codec2_udp_sink
+transports:
+  &kiss KISS:
+    protocol: KISS no control byte
+    data:
+    - *tlm
+    - *image
+transmitters:
+  9k6 BPSK downlink:
+    frequency: 436.210e+6
+    modulation: BPSK
+    baudrate: 9600
+    framing: LilacSat-1
+    transports:
+    - *kiss
+    additional_data:
+      codec2: *codec2
