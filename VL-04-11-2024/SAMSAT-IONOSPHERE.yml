@@ -1,7 +1,7 @@
 name: SAMSAT-IONOSPHERE
 alternative_names:
   - RS75S
-norad: 99999
+norad: 98786
 data:
   &tlm AX25 telemetry:
     telemetry: ax25

@@ -1,7 +1,7 @@
 name: HYPERVIEW-1G
 alternative_names:
   - RS66S
-norad: 99999
+norad: 98781
 data:
   &tlm AX25 telemetry:
     telemetry: ax25
@@ -10,6 +10,13 @@ transmitters:
     frequency: 436.540e+6
     modulation: FSK
     baudrate: 2400
+    framing: USP
+    data:
+    - *tlm
+  4k8 USP FSK downlink:
+    frequency: 436.540e+6
+    modulation: FSK
+    baudrate: 4800
     framing: USP
     data:
     - *tlm
