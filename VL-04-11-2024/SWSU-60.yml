@@ -1,6 +1,7 @@
 name: SWSU-60
 alternative_names:
   - RS6S
+  - FRANK-1
 norad: 98783
 data:
   &tlm AX25 telemetry:
