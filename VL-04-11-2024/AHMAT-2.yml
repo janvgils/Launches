@@ -1,13 +1,13 @@
-name: RUZAEVKA-390
+name: AHMAT-2
 alternative_names:
-  - RS44S
-norad: 99194
+  - RS79S
+norad: 99999
 data:
   &tlm AX25 telemetry:
     telemetry: ax25
 transmitters:
   1k135 AX25 AFSK downlink:
-    frequency: 437.050e+6
+    frequency: 437.550e+6
     modulation: AFSK
     baudrate: 1143
     af_carrier: 1810
