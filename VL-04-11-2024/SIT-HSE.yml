@@ -1,6 +1,6 @@
 name: SIT-HSE
 alternative_names:
-  - SCxxHSE
+  - SC2336
 norad: 98774
 data:
   &tlm Telemetry:
