@@ -1,20 +1,20 @@
-name: SITRO-AIS-17
+name: SITRO-AIS-20
 alternative_names:
-  - SC3235
+  - SC3238
 norad: 99999
 data:
   &tlm Telemetry:
     telemetry: ax25
 transmitters:
   2k4 FSK USP downlink:
-    frequency: 401.095e+6
+    frequency: 401.155e+6
     modulation: FSK
     baudrate: 2400
     framing: USP
     data:
     - *tlm
   9k6 FSK USP downlink:
-    frequency: 401.095e+6
+    frequency: 401.155e+6
     modulation: FSK
     baudrate: 9600
     framing: USP
