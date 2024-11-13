@@ -1,6 +1,7 @@
 name: NOKHCHO
 alternative_names:
   - RS79S
+  - AHMAT-2
 norad: 98782
 data:
   &tlm AX25 telemetry:
