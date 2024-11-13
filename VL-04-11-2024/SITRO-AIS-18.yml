@@ -1,7 +1,7 @@
 name: SITRO-AIS-18
 alternative_names:
   - SC3236
-norad: 99999
+norad: 98758
 data:
   &tlm Telemetry:
     telemetry: ax25

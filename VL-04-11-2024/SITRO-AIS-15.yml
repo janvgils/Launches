@@ -1,7 +1,7 @@
 name: SITRO-AIS-15
 alternative_names:
   - SC3233
-norad: 99999
+norad: 98761
 data:
   &tlm Telemetry:
     telemetry: ax25

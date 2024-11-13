@@ -1,7 +1,7 @@
 name: SITRO-AIS-17
 alternative_names:
   - SC3235
-norad: 99999
+norad: 98759
 data:
   &tlm Telemetry:
     telemetry: ax25

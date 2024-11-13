@@ -1,7 +1,7 @@
 name: SITRO-AIS-20
 alternative_names:
   - SC3238
-norad: 99999
+norad: 98756
 data:
   &tlm Telemetry:
     telemetry: ax25

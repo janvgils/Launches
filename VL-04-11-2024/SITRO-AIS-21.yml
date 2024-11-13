@@ -1,7 +1,7 @@
 name: SITRO-AIS-21
 alternative_names:
   - SC3239
-norad: 99999
+norad: 98755
 data:
   &tlm Telemetry:
     telemetry: ax25
