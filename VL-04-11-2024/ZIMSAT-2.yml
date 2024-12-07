@@ -1,7 +1,7 @@
 name: ZIMSAT-2
 alternative_names:
   - Z2AS
-norad: 98777
+norad: 61783
 data:
   &tlm AX25 telemetry:
     telemetry: ax25
