@@ -1,7 +1,7 @@
 name: SITRO-AIS-22
 alternative_names:
   - SC2310
-norad: 98754
+norad: 61740
 data:
   &tlm Telemetry:
     telemetry: ax25

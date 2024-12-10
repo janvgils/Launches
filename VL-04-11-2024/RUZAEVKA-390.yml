@@ -1,7 +1,7 @@
 name: RUZAEVKA-390
 alternative_names:
   - RS44S
-norad: 99194
+norad: 61766
 data:
   &tlm AX25 telemetry:
     telemetry: ax25

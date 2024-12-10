@@ -1,7 +1,7 @@
 name: SITRO-AIS-38
 alternative_names:
   - SC2326
-norad: 98750
+norad: 61786
 data:
   &tlm Telemetry:
     telemetry: ax25

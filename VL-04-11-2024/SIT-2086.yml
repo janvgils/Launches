@@ -1,7 +1,7 @@
 name: SIT-2086
 alternative_names:
   - SCxx2086
-norad: 98773
+norad: 61764
 data:
   &tlm Telemetry:
     telemetry: ax25

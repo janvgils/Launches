@@ -1,7 +1,7 @@
 name: ARCTICSAT-1
 alternative_names:
   - RS74S
-norad: 98787
+norad: 61762
 data:
   &tlm AX25 telemetry:
     telemetry: ax25

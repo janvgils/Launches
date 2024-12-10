@@ -1,7 +1,7 @@
 name: SITRO-AIS-44
 alternative_names:
   - SC2332
-norad: 98744
+norad: 61748
 data:
   &tlm Telemetry:
     telemetry: ax25

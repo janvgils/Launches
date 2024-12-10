@@ -1,7 +1,7 @@
 name: SITRO-AIS-41
 alternative_names:
   - SC2329
-norad: 98747
+norad: 61760
 data:
   &tlm Telemetry:
     telemetry: ax25

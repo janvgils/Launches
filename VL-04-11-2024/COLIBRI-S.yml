@@ -1,7 +1,7 @@
 name: COLIBRI-S
 alternative_names:
   - RS67S
-norad: 98794
+norad: 61746
 data:
    &tlm Telemetry:
      unknown

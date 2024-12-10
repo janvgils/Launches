@@ -1,7 +1,7 @@
 name: HYPERVIEW-1G
 alternative_names:
   - RS66S
-norad: 98781
+norad: 61772
 data:
   &tlm AX25 telemetry:
     telemetry: ax25

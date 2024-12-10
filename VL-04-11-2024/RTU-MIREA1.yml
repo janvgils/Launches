@@ -1,7 +1,7 @@
 name: RTU-MIREA1
 alternative_names:
   - RS51S
-norad: 98894
+norad: 61785
 data:
    &tlm Telemetry:
      unknown

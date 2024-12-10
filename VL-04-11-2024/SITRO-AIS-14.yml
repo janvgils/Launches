@@ -1,7 +1,7 @@
 name: SITRO-AIS-14
 alternative_names:
   - SC3232
-norad: 98762
+norad: 61752
 data:
   &tlm Telemetry:
     telemetry: ax25

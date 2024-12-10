@@ -1,7 +1,7 @@
 name: SITRO-AIS-24
 alternative_names:
   - SC2312
-norad: 98752
+norad: 61741
 data:
   &tlm Telemetry:
     telemetry: ax25

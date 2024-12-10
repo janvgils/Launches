@@ -1,7 +1,7 @@
 name: SITRO-AIS-47
 alternative_names:
   - SC2360
-norad: 98741
+norad: 61773
 data:
   &tlm Telemetry:
     telemetry: ax25

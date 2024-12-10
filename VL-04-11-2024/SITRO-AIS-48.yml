@@ -1,7 +1,7 @@
 name: SITRO-AIS-48
 alternative_names:
   - SC2370
-norad: 98740
+norad: 61771
 data:
   &tlm Telemetry:
     telemetry: ax25

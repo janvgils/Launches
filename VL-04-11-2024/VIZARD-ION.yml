@@ -1,7 +1,7 @@
 name: VIZARD-ION
 alternative_names:
   - RS68S
-norad: 98789
+norad: 61749
 data:
    &tlm Telemetry:
      unknown

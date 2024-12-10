@@ -1,7 +1,7 @@
 name: MORDOVIA-IOT
 alternative_names:
   - RS50S
-norad: 98785
+norad: 61765
 data:
   &tlm AX25 telemetry:
     telemetry: ax25
