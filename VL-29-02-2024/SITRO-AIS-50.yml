@@ -1,7 +1,7 @@
 name: SITRO-AIS-50
 alternative_names:
   - SC2338
-norad: 59061
+norad: 59062
 data:
   &tlm Telemetry:
     telemetry: ax25
