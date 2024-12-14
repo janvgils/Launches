@@ -11,6 +11,7 @@ transmitters:
      modulation: FSK
      baudrate: 9600
      framing: GEOSCAN
+     deviation: 4800
      frame size: 74
      data:
      - *tlm
