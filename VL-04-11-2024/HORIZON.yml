@@ -1,10 +1,10 @@
 name: HORIZON
 alternative_names:
   - RS59S
-norad: 61757
+norad: 61755
 data:
-   &tlm Telemetry:
-     unknown
+   &tlm AX25 Telemetry:
+     telemetry: ax25
 transmitters:
    9k6 FSK downlink:
      frequency: 435.430e+6
