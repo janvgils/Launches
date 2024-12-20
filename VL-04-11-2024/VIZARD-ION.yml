@@ -3,8 +3,8 @@ alternative_names:
   - RS68S
 norad: 61749
 data:
-   &tlm Telemetry:
-     unknown
+   &tlm AX25 Telemetry:
+     telemetry: ax25
 transmitters:
    9k6 FSK downlink:
      frequency: 436.870e+6

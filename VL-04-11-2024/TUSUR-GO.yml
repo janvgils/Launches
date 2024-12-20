@@ -3,8 +3,8 @@ alternative_names:
   - RS51S
 norad: 61782
 data:
-   &tlm Telemetry:
-     unknown
+   &tlm AX25 Telemetry:
+     telemetry: ax25
 transmitters:
    9k6 FSK downlink:
      frequency: 437.730e+6
