@@ -2,6 +2,11 @@
 Information sharing on coming and previous launches
 ___
 
+### [BW2-21-12-2024](https://github.com/janvgils/Launches/tree/main/BW2-21-12-2024): Bandwagon 2 / Falcon 9 - Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base Launch - 21-12-2024 11:34:23.990 UTC
+
+Follow [this link](https://community.libre.space/t/spacex-f9-bandwagon-2-2024-12-21-11-34-utc/12660/) to further launch details that are shared on the SatNOGS community page.
+___
+
 ### [VL-04-11-2024](https://github.com/janvgils/Launches/tree/main/VL-04-11-2024): Soyuz-2.1b / Fregat - Vostochny Launch - 2024-11-04 23:18 UTC
 
 Follow [this link](https://community.libre.space/t/soyuz-2-1b-fregat-vostochny-launch-2024-11-04-xx-xx-utc/11468) to further launch details that are shared on the SatNOGS community page.
