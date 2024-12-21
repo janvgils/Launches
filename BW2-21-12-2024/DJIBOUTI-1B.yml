@@ -1,0 +1,13 @@
+name: DJIBOUTI-1B
+norad: 98729
+data:
+  &tlm Telemetry:
+    telemetry: ax25
+transmitters:
+  2k4 FSK AX.25 downlink:
+    frequency: 401.800e+6
+    modulation: FSK
+    baudrate: 2400
+    framing: AX.25
+    data:
+    - *tlm
