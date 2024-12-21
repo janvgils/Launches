@@ -1,0 +1,13 @@
+name: CTC-0
+norad: 98728
+data:
+  &tlm AX26 telemetry:
+    telemetry: ax25
+transmitters:
+  9k6 AX.25 G3RUH FSK downlink:
+    frequency: 401.500e+6
+    modulation: FSK
+    baudrate: 9600
+    framing: AX.25 G3RUH
+    data:
+    - *tlm
