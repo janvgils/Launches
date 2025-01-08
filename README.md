@@ -1,5 +1,11 @@
 # Launches
 Information sharing on coming and previous launches
+
+___
+
+### [T12-14-01-2025](https://github.com/janvgils/Launches/tree/main/T12-14-01-2025): Transporter 12 / Falcon 9 - Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base Launch - 14-01-2025 18:49:00 UTC
+
+Follow [this link](https://community.libre.space/t/transporter-12-rideshare-vsfb-slc-4e-net-14-january-2025-1849z-1946z/12762) to further launch details that are shared on the SatNOGS community page.
 ___
 
 ### [BW2-21-12-2024](https://github.com/janvgils/Launches/tree/main/BW2-21-12-2024): Bandwagon 2 / Falcon 9 - Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base Launch - 21-12-2024 11:34:23.990 UTC
