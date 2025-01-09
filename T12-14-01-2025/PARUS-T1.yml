@@ -1,5 +1,5 @@
 name: PARUS-T1
-norad: 99999
+norad: 98707
 data:
   &tlm Telemetry:
     telemetry: ax25
