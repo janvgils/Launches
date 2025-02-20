@@ -1,5 +1,5 @@
 name: INNOCUBE
-norad: 98709
+norad: 62616
 data:
   &tlm Telemetry:
     unknown
