@@ -1,0 +1,15 @@
+name: HADES-ICM
+norad: 99999
+data:
+  &tlm Telemetry:
+    unknown
+transmitters:
+  9k6 FSK downlink:
+    frequency: 436.666e+6
+    modulation: FSK
+    baudrate: 200
+    deviation: 565.2
+    framing: HADES-R
+    data:
+    - *tlm
+
