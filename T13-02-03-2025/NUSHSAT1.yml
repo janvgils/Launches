@@ -11,4 +11,16 @@ transmitters:
     deviation: 575
     framing: AX100 ASM+Golay
     data:
+  2k4 FSK AX100 ASM+Golay downlink:
+    frequency: 436.200e+6
+    modulation: FSK
+    baudrate: 2400
+    framing: AX100 ASM+Golay
+    data:
+  4k8 FSK AX100 ASM+Golay downlink:
+    frequency: 436.200e+6
+    modulation: FSK
+    baudrate: 4800
+    framing: AX100 ASM+Golay
+    data:
     - *tlm
