@@ -1,34 +1,14 @@
 name: NUSHSAT1
 norad: 98628
 data:
-  &tlm Unknown telemetry:
-    unknown
+  &tlm CSP telemetry:
+    telemetry: csp
 transmitters:
   1k2 FSK AX100 ASM+Golay downlink:
     frequency: 436.200e+6
     modulation: FSK
     baudrate: 1200
-    framing: AX100 ASM+Golay
-    data:
-    - *tlm
-  2k4 FSK AX100 ASM+Golay downlink:
-    frequency: 436.200e+6
-    modulation: FSK
-    baudrate: 2400
-    framing: AX100 ASM+Golay
-    data:
-    - *tlm
-  4k8 FSK AX100 ASM+Golay downlink:
-    frequency: 436.200e+6
-    modulation: FSK
-    baudrate: 4800
-    framing: AX100 ASM+Golay
-    data:
-    - *tlm
-  9k6 FSK AX100 ASM+Golay downlink:
-    frequency: 436.200e+6
-    modulation: FSK
-    baudrate: 9600
+    deviation: 575
     framing: AX100 ASM+Golay
     data:
     - *tlm
