@@ -1,5 +1,7 @@
 name: NUSHSAT1
 norad: 98628
+telemetry_servers:
+  - SIDS https://sat.nushigh.school/telemetry
 data:
   &tlm CSP telemetry:
     telemetry: csp
