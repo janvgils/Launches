@@ -1,5 +1,5 @@
 name: JINJUSAT-1B
-norad: 98650
+norad: 63210
 data:
   &tlm Telemetry:
     telemetry: ax25
