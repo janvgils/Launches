@@ -1,0 +1,15 @@
+name: PHOENIX-ONE
+norad: 98608
+data:
+  &tlm Telemetry:
+    unknown
+  &csp csp Telemetry:
+    telemetry: csp
+transmitters:
+  38k4 FSK downlink:
+    frequency: 434.000e+6
+    modulation: FSK
+    baudrate: 38400
+    framing: AX100 ASM+Golay
+    data:
+    - *csp
