@@ -1,0 +1,16 @@
+name: UND-ROADS-1
+norad: 98590
+data:
+  &tlm Telemetry:
+    unknown
+  &csp CSP Telemetry:
+    telemetry: csp
+transmitters:
+  4k8 FSK downlink:
+    frequency: 435.400e+6
+    modulation: FSK
+    baudrate: 4800
+    deviation: 1400
+    framing: AX100 ASM+Golay
+    data:
+    - *tlm
