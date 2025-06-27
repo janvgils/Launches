@@ -2,6 +2,11 @@
 Information sharing on coming and previous launches
 ___
 
+### [VL-25-07-2025](https://github.com/janvgils/Launches/tree/main/VL-25-07-2025): Soyuz-2.1b / Fregat - Vostochny Launch - 25 July 2025 05:54 UTC
+
+Follow [this link](https://community.libre.space/t/soyuz-2-1b-fregat-ionosfera-m-3-4-vostochny-25-july-2025-05-54-utc/13457) to further launch details that are shared on the SatNOGS community page.
+___
+
 ### [T14-23-06-2025](https://github.com/janvgils/Launches/tree/main/T14-23-06-2025): Transporter 14 / Falcon 9 - Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base Launch - 23-06-2025 21:18:00 UTC
 
 Follow [this link](https://community.libre.space/t/transporter-14-rideshare-vandenberg-slc-4e-23-jun-2025-21-18-utc/13339/95) to further launch details that are shared on the SatNOGS community page.
