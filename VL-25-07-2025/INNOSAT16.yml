@@ -1,0 +1,17 @@
+name: INNOSAT16
+alternative_names:
+  - RS92S7
+norad: 98552
+data:
+   &tlm Telemetry:
+     unknown
+transmitters:
+   9k6 FSK downlink:
+     frequency: 435.830e+6
+     modulation: FSK
+     baudrate: 9600
+     framing: GEOSCAN
+     deviation: 4800
+     frame size: 74
+     data:
+     - *tlm

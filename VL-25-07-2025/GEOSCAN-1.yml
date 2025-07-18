@@ -1,0 +1,17 @@
+name: GEOSCAN-1
+alternative_names:
+  - RS92S1
+norad: 98559
+data:
+   &tlm Telemetry:
+     unknown
+transmitters:
+   9k6 FSK downlink:
+     frequency: 435.970e+6
+     modulation: FSK
+     baudrate: 9600
+     framing: GEOSCAN
+     deviation: 4800
+     frame size: 74
+     data:
+     - *tlm

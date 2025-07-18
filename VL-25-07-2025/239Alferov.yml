@@ -1,0 +1,17 @@
+name: 239ALFEROV
+alternative_names:
+  - RS61S
+norad: 98560
+data:
+   &tlm Telemetry:
+     unknown
+transmitters:
+   9k6 FSK downlink:
+     frequency: 436.270e+6
+     modulation: FSK
+     baudrate: 9600
+     framing: GEOSCAN
+     deviation: 4800
+     frame size: 74
+     data:
+     - *tlm
