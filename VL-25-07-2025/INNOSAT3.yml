@@ -1,7 +1,7 @@
 name: INNOSAT3
 alternative_names:
   - RS92S0
-norad: 98553
+norad: 64894
 data:
    &tlm Telemetry:
      unknown

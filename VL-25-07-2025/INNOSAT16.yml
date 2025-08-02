@@ -1,7 +1,7 @@
 name: INNOSAT16
 alternative_names:
   - RS92S7
-norad: 98552
+norad: 64878
 data:
    &tlm Telemetry:
      unknown

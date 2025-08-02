@@ -1,7 +1,7 @@
 name: GEOSCAN-4
 alternative_names:
   - RS92S4
-norad: 98556
+norad: 64892
 data:
    &tlm Telemetry:
      unknown

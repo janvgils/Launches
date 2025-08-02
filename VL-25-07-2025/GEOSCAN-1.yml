@@ -1,7 +1,7 @@
 name: GEOSCAN-1
 alternative_names:
   - RS92S1
-norad: 98559
+norad: 64880
 data:
    &tlm Telemetry:
      unknown

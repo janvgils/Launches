@@ -1,7 +1,7 @@
 name: GEOSCAN-5
 alternative_names:
   - RS92S5
-norad: 98555
+norad: 64891
 data:
    &tlm Telemetry:
      unknown

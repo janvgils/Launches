@@ -1,7 +1,7 @@
 name: GEOSCAN-3
 alternative_names:
   - RS92S3
-norad: 98557
+norad: 64893
 data:
    &tlm Telemetry:
      unknown

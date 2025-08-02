@@ -1,7 +1,7 @@
 name: 239ALFEROV
 alternative_names:
   - RS61S
-norad: 98560
+norad: 64881
 data:
    &tlm Telemetry:
      unknown
