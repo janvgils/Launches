@@ -1,5 +1,5 @@
 name: DJIBOUTI-1B
-norad: 98729
+norad: 62402
 data:
   &tlm Telemetry:
     telemetry: ax25
