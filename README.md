@@ -1,5 +1,5 @@
 # Launches
-Information sharing on coming and previous launches
+[gr-satellites](https://gr-satellites.readthedocs.io/en/latest/) yaml file information on coming and previous launches.
 ___
 
 ### [J-SSOD-32_19-09-2025](https://github.com/janvgils/Launches/tree/main/J-SSOD-32_19-09-2025): ISS Deployment J-SSOD-32 - 19 September 2025 xx:xx UTC
