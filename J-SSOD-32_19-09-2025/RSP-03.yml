@@ -1,5 +1,5 @@
 name: RSP-03
-norad: 98654
+norad: 65732
 data:
   &tlm Telemetry:
     telemetry: ax25

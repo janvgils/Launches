@@ -1,5 +1,5 @@
 name: STARS-ME2
-norad: 98540
+norad: 65731
 data:
   &tlm Telemetry:
     telemetry: ax25

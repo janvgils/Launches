@@ -1,5 +1,5 @@
 name: GHS-01
-norad: 98541
+norad: 65733
 data:
   &tlm Telemetry:
     telemetry: ax25

@@ -1,5 +1,5 @@
-name: BIRDS-X
-norad: 98539
+name: DRAGONFLY
+norad: 65729
 data:
   &tlm Telemetry:
     telemetry: ax25
