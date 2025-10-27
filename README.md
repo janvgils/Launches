@@ -2,6 +2,11 @@
 [gr-satellites](https://gr-satellites.readthedocs.io/en/latest/) yaml file information on coming and previous launches.
 ___
 
+### [T15-10-11-2025](https://github.com/janvgils/Launches/tree/main/T15-10-11-2025): Transporter-15 Rideshare: VSFB SLC-4E - 10 November 2025 xx:xx UTC
+
+Follow [this link](https://community.libre.space/t/transporter-15-rideshare-vsfb-slc-4e-10-november-2025/13951) for further launch details that are shared on the SatNOGS community page.
+___
+
 ### [J-SSOD-32_19-09-2025](https://github.com/janvgils/Launches/tree/main/J-SSOD-32_19-09-2025): ISS Deployment J-SSOD-32 - 19 September 2025 xx:xx UTC
 
 Follow [this link](https://community.libre.space/t/iss-deployment-jaxa-j-ssod-32-2025-09-19/13705) for further launch details that are shared on the SatNOGS community page.
