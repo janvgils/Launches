@@ -1,0 +1,14 @@
+name: PHASMA-DIRAC
+norad: 98529
+data:
+  &tlm Unknown:
+    unknown
+transmitters:
+  9k6 FSK downlink:
+    frequency: 400.600e+6
+    modulation: FSK
+    baudrate: 50000
+    deviation: 12500
+    framing: QUBIK
+    data:
+    - *tlm
