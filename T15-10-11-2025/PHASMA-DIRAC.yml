@@ -1,16 +1,16 @@
-not working yet
-
 name: PHASMA-DIRAC
 norad: 98529
 data:
-  &tlm Unknown:
+  &tlm Unknown telemetry:
     unknown
 transmitters:
-  9k6 FSK downlink:
-    frequency: 400.600e+6
+  50k FSK CCSDS:
+    frequency: 400.550e+6
     modulation: FSK
     baudrate: 50000
-    deviation: 12500
-    framing: QUBIK
+    framing: CCSDS Uncoded
+    frame size: 448
+    scrambler: CCSDS
+    syncword threshold: 2
     data:
     - *tlm
