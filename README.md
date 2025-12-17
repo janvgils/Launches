@@ -2,6 +2,11 @@
 [gr-satellites](https://gr-satellites.readthedocs.io/en/latest/) yaml file information on coming and previous launches.
 ___
 
+### [VL-28-12-2025](https://github.com/janvgils/Launches/tree/main/VL-28-12-2025): Soyuz-2.1b / Fregat - Vostochny Launch - 2025-12-28 13:18:05 UTC
+
+Follow [this link](https://community.libre.space/t/soyuz-2-1b-fregat-vostochny-launch-2025-12-28-1305-utc/14152) for further launch details that are shared on the SatNOGS community page.
+___
+
 ### [SHN-19-12-2025](https://github.com/janvgils/Launches/tree/main/SNH-19-12-2025): Spaceward - HANBIT-NANO - 2025-12-19 18:45 UTC
 
 Follow [this link](https://community.libre.space/t/spaceward-hanbit-nano-2025-12-19-18-45-utc/14151) for further launch details that are shared on the SatNOGS community page.
