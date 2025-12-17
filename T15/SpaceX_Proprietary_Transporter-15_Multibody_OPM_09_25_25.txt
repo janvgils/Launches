@@ -1,0 +1,1792 @@
+# SpaceX OPM output for transporter15
+
+# Notes:
+# - ECEF velocity is Earth relative
+# - Apogee/Perigee altitude assumes a spherical Earth, 6378.137 km radius
+# - Orbital elements are computed in an inertial frame realized by inertially
+#   freezing the WGS84 ECEF frame at time of current state
+# - State is post-deployment, so includes separation delta-velocity
+
+
+header:
+  generation_date: 2025-09-26T20:49:26.032Z
+  launch_date: 2025-11-10T18:18:59.990Z
+
+
+deployments:
+
+- name: TORO2
+  sequence_number: 1
+  catid: 799501996
+  mission_time_s: 3284.060
+  date: 2025-11-10T19:13:44.050Z
+  r_ecef_m: [4670954.309, 4594683.785, -2150451.662]
+  v_ecef_m_per_s: [2731.154, 563.449, 7156.474]
+  mean_perigee_altitude_km: 497.568
+  mean_apogee_altitude_km: 515.974
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 105.943
+  mean_longitude_ascending_node_deg: 42.069
+  mean_mean_anomaly_deg: -124.144
+  ballistic_coef_kg_per_m2: 112.47
+  hard_body_radius_m: 0.36
+
+- name: FEMTO-1
+  sequence_number: 2
+  catid: 799502011
+  mission_time_s: 3291.660
+  date: 2025-11-10T19:13:51.650Z
+  r_ecef_m: [4691550.628, 4598796.015, -2095972.639]
+  v_ecef_m_per_s: [2688.693, 518.599, 7179.468]
+  mean_perigee_altitude_km: 504.259
+  mean_apogee_altitude_km: 520.822
+  mean_inclination_deg: 97.438
+  mean_argument_of_perigee_deg: 67.680
+  mean_longitude_ascending_node_deg: 42.039
+  mean_mean_anomaly_deg: -85.390
+  ballistic_coef_kg_per_m2: 20.27
+  hard_body_radius_m: 0.52
+
+- name: HI_SAT2
+  sequence_number: 3
+  catid: 799501993
+  mission_time_s: 3299.460
+  date: 2025-11-10T19:13:59.450Z
+  r_ecef_m: [4712352.877, 4602658.473, -2039911.244]
+  v_ecef_m_per_s: [2645.031, 471.649, 7195.901]
+  mean_perigee_altitude_km: 498.060
+  mean_apogee_altitude_km: 515.951
+  mean_inclination_deg: 97.444
+  mean_argument_of_perigee_deg: 105.209
+  mean_longitude_ascending_node_deg: 42.005
+  mean_mean_anomaly_deg: -122.438
+  ballistic_coef_kg_per_m2: 34.92
+  hard_body_radius_m: 0.42
+
+- name: PHI-1
+  sequence_number: 4
+  catid: 799501984
+  mission_time_s: 3306.460
+  date: 2025-11-10T19:14:06.450Z
+  r_ecef_m: [4730728.974, 4605817.798, -1989468.418]
+  v_ecef_m_per_s: [2603.639, 430.056, 7213.736]
+  mean_perigee_altitude_km: 497.190
+  mean_apogee_altitude_km: 517.059
+  mean_inclination_deg: 97.434
+  mean_argument_of_perigee_deg: 100.926
+  mean_longitude_ascending_node_deg: 41.979
+  mean_mean_anomaly_deg: -117.691
+  ballistic_coef_kg_per_m2: 63.86
+  hard_body_radius_m: 0.63
+
+- name: LILIUM-2
+  sequence_number: 5
+  catid: 799501978
+  mission_time_s: 3313.660
+  date: 2025-11-10T19:14:13.650Z
+  r_ecef_m: [4749342.501, 4608760.586, -1937458.779]
+  v_ecef_m_per_s: [2565.838, 387.351, 7232.988]
+  mean_perigee_altitude_km: 504.988
+  mean_apogee_altitude_km: 519.578
+  mean_inclination_deg: 97.446
+  mean_argument_of_perigee_deg: 68.995
+  mean_longitude_ascending_node_deg: 41.945
+  mean_mean_anomaly_deg: -85.331
+  ballistic_coef_kg_per_m2: 87.00
+  hard_body_radius_m: 0.78
+
+- name: LEMUR-2-LAILA
+  sequence_number: 6
+  catid: 799501986
+  mission_time_s: 3321.160
+  date: 2025-11-10T19:14:21.150Z
+  r_ecef_m: [4768414.613, 4611497.626, -1883155.512]
+  v_ecef_m_per_s: [2520.592, 342.459, 7248.078]
+  mean_perigee_altitude_km: 497.246
+  mean_apogee_altitude_km: 516.451
+  mean_inclination_deg: 97.438
+  mean_argument_of_perigee_deg: 103.909
+  mean_longitude_ascending_node_deg: 41.916
+  mean_mean_anomaly_deg: -119.754
+  ballistic_coef_kg_per_m2: 38.84
+  hard_body_radius_m: 0.45
+
+- name: BLACK KITE-1
+  sequence_number: 7
+  catid: 799501981
+  mission_time_s: 3330.060
+  date: 2025-11-10T19:14:30.050Z
+  r_ecef_m: [4790630.936, 4614311.075, -1818543.662]
+  v_ecef_m_per_s: [2471.291, 289.747, 7271.051]
+  mean_perigee_altitude_km: 504.959
+  mean_apogee_altitude_km: 520.649
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 65.476
+  mean_longitude_ascending_node_deg: 41.878
+  mean_mean_anomaly_deg: -80.769
+  ballistic_coef_kg_per_m2: 113.00
+  hard_body_radius_m: 0.37
+
+- name: HUNITY (NMHH-1)_SARI 1_SARI 2_ANISCSAT-1
+  sequence_number: 8
+  catid: 799501930
+  mission_time_s: 3337.360
+  date: 2025-11-10T19:14:37.350Z
+  r_ecef_m: [4808511.152, 4616269.227, -1765418.006]
+  v_ecef_m_per_s: [2426.726, 246.427, 7287.572]
+  mean_perigee_altitude_km: 503.196
+  mean_apogee_altitude_km: 521.986
+  mean_inclination_deg: 97.430
+  mean_argument_of_perigee_deg: 68.392
+  mean_longitude_ascending_node_deg: 41.851
+  mean_mean_anomaly_deg: -83.196
+  ballistic_coef_kg_per_m2: 0.20
+  hard_body_radius_m: 0.30
+
+- name: TMICROSAT-1
+  sequence_number: 9
+  catid: 799501982
+  mission_time_s: 3344.560
+  date: 2025-11-10T19:14:44.550Z
+  r_ecef_m: [4825846.047, 4617885.034, -1712907.243]
+  v_ecef_m_per_s: [2386.683, 203.503, 7302.247]
+  mean_perigee_altitude_km: 504.172
+  mean_apogee_altitude_km: 520.614
+  mean_inclination_deg: 97.440
+  mean_argument_of_perigee_deg: 68.813
+  mean_longitude_ascending_node_deg: 41.818
+  mean_mean_anomaly_deg: -83.183
+  ballistic_coef_kg_per_m2: 68.70
+  hard_body_radius_m: 0.40
+
+- name: LEMUR-2-TEODOR
+  sequence_number: 10
+  catid: 799501954
+  mission_time_s: 3351.860
+  date: 2025-11-10T19:14:51.850Z
+  r_ecef_m: [4843112.169, 4619213.284, -1659559.147]
+  v_ecef_m_per_s: [2342.700, 159.968, 7314.695]
+  mean_perigee_altitude_km: 497.660
+  mean_apogee_altitude_km: 516.766
+  mean_inclination_deg: 97.436
+  mean_argument_of_perigee_deg: 101.734
+  mean_longitude_ascending_node_deg: 41.789
+  mean_mean_anomaly_deg: -115.635
+  ballistic_coef_kg_per_m2: 38.84
+  hard_body_radius_m: 0.45
+
+- name: OBSERVER-1B
+  sequence_number: 11
+  catid: 799501955
+  mission_time_s: 3367.260
+  date: 2025-11-10T19:15:07.250Z
+  r_ecef_m: [4878515.616, 4620972.922, -1546661.976]
+  v_ecef_m_per_s: [2252.847, 68.572, 7344.481]
+  mean_perigee_altitude_km: 497.622
+  mean_apogee_altitude_km: 516.183
+  mean_inclination_deg: 97.440
+  mean_argument_of_perigee_deg: 104.728
+  mean_longitude_ascending_node_deg: 41.724
+  mean_mean_anomaly_deg: -117.663
+  ballistic_coef_kg_per_m2: 28.50
+  hard_body_radius_m: 0.58
+
+- name: 6GSTARLAB
+  sequence_number: 12
+  catid: 799501997
+  mission_time_s: 3374.860
+  date: 2025-11-10T19:15:14.850Z
+  r_ecef_m: [4895473.334, 4621318.399, -1490776.499]
+  v_ecef_m_per_s: [2209.712, 23.611, 7361.004]
+  mean_perigee_altitude_km: 504.449
+  mean_apogee_altitude_km: 519.539
+  mean_inclination_deg: 97.446
+  mean_argument_of_perigee_deg: 71.109
+  mean_longitude_ascending_node_deg: 41.690
+  mean_mean_anomaly_deg: -83.575
+  ballistic_coef_kg_per_m2: 98.00
+  hard_body_radius_m: 0.54
+
+- name: BRO-17
+  sequence_number: 13
+  catid: 799502008
+  mission_time_s: 3382.060
+  date: 2025-11-10T19:15:22.050Z
+  r_ecef_m: [4911219.882, 4621335.572, -1437739.556]
+  v_ecef_m_per_s: [2164.539, -19.032, 7371.796]
+  mean_perigee_altitude_km: 497.832
+  mean_apogee_altitude_km: 516.751
+  mean_inclination_deg: 97.436
+  mean_argument_of_perigee_deg: 101.590
+  mean_longitude_ascending_node_deg: 41.663
+  mean_mean_anomaly_deg: -113.582
+  ballistic_coef_kg_per_m2: 36.90
+  hard_body_radius_m: 0.43
+
+- name: SPEQTRE
+  sequence_number: 14
+  catid: 799501948
+  mission_time_s: 3390.360
+  date: 2025-11-10T19:15:30.350Z
+  r_ecef_m: [4928992.689, 4620979.311, -1376486.551]
+  v_ecef_m_per_s: [2116.499, -68.162, 7385.802]
+  mean_perigee_altitude_km: 499.041
+  mean_apogee_altitude_km: 515.973
+  mean_inclination_deg: 97.444
+  mean_argument_of_perigee_deg: 102.965
+  mean_longitude_ascending_node_deg: 41.626
+  mean_mean_anomaly_deg: -114.449
+  ballistic_coef_kg_per_m2: 89.70
+  hard_body_radius_m: 0.25
+
+- name: OTTER_HCT-SAT2
+  sequence_number: 15
+  catid: 799501995
+  mission_time_s: 3397.360
+  date: 2025-11-10T19:15:37.350Z
+  r_ecef_m: [4943660.380, 4620352.515, -1324733.655]
+  v_ecef_m_per_s: [2075.038, -109.408, 7399.982]
+  mean_perigee_altitude_km: 504.448
+  mean_apogee_altitude_km: 520.285
+  mean_inclination_deg: 97.444
+  mean_argument_of_perigee_deg: 68.657
+  mean_longitude_ascending_node_deg: 41.597
+  mean_mean_anomaly_deg: -79.697
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.33
+
+- name: VEERY-0G_SPIN-2
+  sequence_number: 16
+  catid: 799501994
+  mission_time_s: 3408.560
+  date: 2025-11-10T19:15:48.550Z
+  r_ecef_m: [4966514.984, 4618756.803, -1241769.230]
+  v_ecef_m_per_s: [2007.114, -175.440, 7417.692]
+  mean_perigee_altitude_km: 504.234
+  mean_apogee_altitude_km: 520.730
+  mean_inclination_deg: 97.441
+  mean_argument_of_perigee_deg: 68.262
+  mean_longitude_ascending_node_deg: 41.551
+  mean_mean_anomaly_deg: -78.590
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.34
+
+- name: PW-6U
+  sequence_number: 17
+  catid: 799501932
+  mission_time_s: 3416.960
+  date: 2025-11-10T19:15:56.950Z
+  r_ecef_m: [4983158.010, 4617080.441, -1179423.277]
+  v_ecef_m_per_s: [1955.534, -224.961, 7427.397]
+  mean_perigee_altitude_km: 498.606
+  mean_apogee_altitude_km: 516.245
+  mean_inclination_deg: 97.441
+  mean_argument_of_perigee_deg: 102.507
+  mean_longitude_ascending_node_deg: 41.516
+  mean_mean_anomaly_deg: -112.303
+  ballistic_coef_kg_per_m2: 7.58
+  hard_body_radius_m: 0.37
+
+- name: LILIUM-3
+  sequence_number: 18
+  catid: 799501977
+  mission_time_s: 3423.960
+  date: 2025-11-10T19:16:03.950Z
+  r_ecef_m: [4996700.227, 4615358.788, -1127387.614]
+  v_ecef_m_per_s: [1911.908, -266.059, 7437.653]
+  mean_perigee_altitude_km: 498.375
+  mean_apogee_altitude_km: 517.108
+  mean_inclination_deg: 97.435
+  mean_argument_of_perigee_deg: 99.109
+  mean_longitude_ascending_node_deg: 41.488
+  mean_mean_anomaly_deg: -108.451
+  ballistic_coef_kg_per_m2: 83.00
+  hard_body_radius_m: 0.78
+
+- name: BRO-20
+  sequence_number: 19
+  catid: 799502009
+  mission_time_s: 3432.160
+  date: 2025-11-10T19:16:12.150Z
+  r_ecef_m: [5012185.447, 4612977.265, -1066346.938]
+  v_ecef_m_per_s: [1863.987, -314.271, 7447.955]
+  mean_perigee_altitude_km: 499.210
+  mean_apogee_altitude_km: 515.467
+  mean_inclination_deg: 97.447
+  mean_argument_of_perigee_deg: 105.083
+  mean_longitude_ascending_node_deg: 41.452
+  mean_mean_anomaly_deg: -113.931
+  ballistic_coef_kg_per_m2: 36.40
+  hard_body_radius_m: 0.43
+
+- name: LEMUR-2-STAS-GORBUK
+  sequence_number: 20
+  catid: 799501979
+  mission_time_s: 3439.260
+  date: 2025-11-10T19:16:19.250Z
+  r_ecef_m: [5025259.539, 4610600.580, -1013423.607]
+  v_ecef_m_per_s: [1818.854, -355.802, 7457.318]
+  mean_perigee_altitude_km: 498.311
+  mean_apogee_altitude_km: 516.462
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 102.155
+  mean_longitude_ascending_node_deg: 41.424
+  mean_mean_anomaly_deg: -110.537
+  ballistic_coef_kg_per_m2: 30.80
+  hard_body_radius_m: 0.48
+
+- name: CTS-1A
+  sequence_number: 21
+  catid: 799501935
+  mission_time_s: 3446.260
+  date: 2025-11-10T19:16:26.250Z
+  r_ecef_m: [5037847.901, 4607970.032, -961182.002]
+  v_ecef_m_per_s: [1777.081, -396.757, 7467.878]
+  mean_perigee_altitude_km: 503.635
+  mean_apogee_altitude_km: 519.611
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 74.098
+  mean_longitude_ascending_node_deg: 41.394
+  mean_mean_anomaly_deg: -82.047
+  ballistic_coef_kg_per_m2: 142.00
+  hard_body_radius_m: 0.82
+
+- name: TRYAD-2
+  sequence_number: 22
+  catid: 799501927
+  mission_time_s: 3454.360
+  date: 2025-11-10T19:16:34.350Z
+  r_ecef_m: [5052036.128, 4604564.600, -900665.354]
+  v_ecef_m_per_s: [1727.336, -444.118, 7474.885]
+  mean_perigee_altitude_km: 499.856
+  mean_apogee_altitude_km: 515.744
+  mean_inclination_deg: 97.447
+  mean_argument_of_perigee_deg: 101.982
+  mean_longitude_ascending_node_deg: 41.359
+  mean_mean_anomaly_deg: -109.427
+  ballistic_coef_kg_per_m2: 47.80
+  hard_body_radius_m: 0.34
+
+- name: ORORATECH GENA-OT-1
+  sequence_number: 23
+  catid: 799501983
+  mission_time_s: 3466.660
+  date: 2025-11-10T19:16:46.650Z
+  r_ecef_m: [5072802.874, 4598658.324, -808626.165]
+  v_ecef_m_per_s: [1650.068, -515.696, 7490.496]
+  mean_perigee_altitude_km: 503.816
+  mean_apogee_altitude_km: 521.065
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 69.195
+  mean_longitude_ascending_node_deg: 41.309
+  mean_mean_anomaly_deg: -75.847
+  ballistic_coef_kg_per_m2: 27.00
+  hard_body_radius_m: 0.65
+
+- name: FLOCK4H 33
+  sequence_number: 24
+  catid: 799501925
+  mission_time_s: 3474.660
+  date: 2025-11-10T19:16:54.650Z
+  r_ecef_m: [5085805.701, 4594350.048, -748686.415]
+  v_ecef_m_per_s: [1600.400, -562.206, 7495.546]
+  mean_perigee_altitude_km: 499.653
+  mean_apogee_altitude_km: 516.249
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 99.993
+  mean_longitude_ascending_node_deg: 41.275
+  mean_mean_anomaly_deg: -106.147
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: LUNA-1 (ON PROGRESS)
+  sequence_number: 25
+  catid: 799502005
+  mission_time_s: 3487.760
+  date: 2025-11-10T19:17:07.750Z
+  r_ecef_m: [5106232.288, 4586481.600, -650404.045]
+  v_ecef_m_per_s: [1517.470, -638.074, 7509.622]
+  mean_perigee_altitude_km: 503.680
+  mean_apogee_altitude_km: 522.046
+  mean_inclination_deg: 97.436
+  mean_argument_of_perigee_deg: 67.441
+  mean_longitude_ascending_node_deg: 41.221
+  mean_mean_anomaly_deg: -72.754
+  ballistic_coef_kg_per_m2: 158.00
+  hard_body_radius_m: 0.95
+
+- name: ACCENTURE-1
+  sequence_number: 26
+  catid: 799502010
+  mission_time_s: 3495.360
+  date: 2025-11-10T19:17:15.350Z
+  r_ecef_m: [5117589.914, 4581464.818, -593322.936]
+  v_ecef_m_per_s: [1471.319, -682.092, 7514.614]
+  mean_perigee_altitude_km: 504.087
+  mean_apogee_altitude_km: 519.800
+  mean_inclination_deg: 97.446
+  mean_argument_of_perigee_deg: 71.391
+  mean_longitude_ascending_node_deg: 41.189
+  mean_mean_anomaly_deg: -76.242
+  ballistic_coef_kg_per_m2: 145.00
+  hard_body_radius_m: 0.71
+
+- name: MICE-1
+  sequence_number: 27
+  catid: 799502002
+  mission_time_s: 3502.460
+  date: 2025-11-10T19:17:22.450Z
+  r_ecef_m: [5127869.512, 4576477.431, -539959.406]
+  v_ecef_m_per_s: [1424.228, -722.871, 7519.795]
+  mean_perigee_altitude_km: 502.559
+  mean_apogee_altitude_km: 521.068
+  mean_inclination_deg: 97.434
+  mean_argument_of_perigee_deg: 74.360
+  mean_longitude_ascending_node_deg: 41.160
+  mean_mean_anomaly_deg: -78.738
+  ballistic_coef_kg_per_m2: 23.97
+  hard_body_radius_m: 0.91
+
+- name: AE5RC
+  sequence_number: 28
+  catid: 799501951
+  mission_time_s: 3511.160
+  date: 2025-11-10T19:17:31.150Z
+  r_ecef_m: [5140033.143, 4569976.414, -474524.421]
+  v_ecef_m_per_s: [1370.310, -772.994, 7524.956]
+  mean_perigee_altitude_km: 503.240
+  mean_apogee_altitude_km: 520.232
+  mean_inclination_deg: 97.440
+  mean_argument_of_perigee_deg: 73.924
+  mean_longitude_ascending_node_deg: 41.124
+  mean_mean_anomaly_deg: -77.766
+  ballistic_coef_kg_per_m2: 27.30
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 2
+  sequence_number: 29
+  catid: 799501938
+  mission_time_s: 3518.460
+  date: 2025-11-10T19:17:38.450Z
+  r_ecef_m: [5149867.450, 4564181.068, -419588.553]
+  v_ecef_m_per_s: [1323.489, -814.738, 7526.980]
+  mean_perigee_altitude_km: 499.513
+  mean_apogee_altitude_km: 516.692
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 98.460
+  mean_longitude_ascending_node_deg: 41.093
+  mean_mean_anomaly_deg: -101.838
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: AE5RB
+  sequence_number: 30
+  catid: 799501949
+  mission_time_s: 3526.460
+  date: 2025-11-10T19:17:46.450Z
+  r_ecef_m: [5160256.287, 4557479.200, -359347.575]
+  v_ecef_m_per_s: [1272.599, -860.623, 7532.672]
+  mean_perigee_altitude_km: 502.858
+  mean_apogee_altitude_km: 520.203
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 75.600
+  mean_longitude_ascending_node_deg: 41.060
+  mean_mean_anomaly_deg: -78.472
+  ballistic_coef_kg_per_m2: 27.30
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 7
+  sequence_number: 31
+  catid: 799501941
+  mission_time_s: 3538.060
+  date: 2025-11-10T19:17:58.050Z
+  r_ecef_m: [5174593.329, 4547112.723, -271956.675]
+  v_ecef_m_per_s: [1198.644, -926.643, 7535.093]
+  mean_perigee_altitude_km: 499.527
+  mean_apogee_altitude_km: 516.257
+  mean_inclination_deg: 97.441
+  mean_argument_of_perigee_deg: 100.263
+  mean_longitude_ascending_node_deg: 41.011
+  mean_mean_anomaly_deg: -102.407
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: LEMUR-2-DEANANDMAEVE
+  sequence_number: 32
+  catid: 799501980
+  mission_time_s: 3546.260
+  date: 2025-11-10T19:18:06.250Z
+  r_ecef_m: [5184208.846, 4539318.676, -210148.490]
+  v_ecef_m_per_s: [1147.285, -973.475, 7539.398]
+  mean_perigee_altitude_km: 503.832
+  mean_apogee_altitude_km: 519.311
+  mean_inclination_deg: 97.447
+  mean_argument_of_perigee_deg: 73.760
+  mean_longitude_ascending_node_deg: 40.977
+  mean_mean_anomaly_deg: -75.397
+  ballistic_coef_kg_per_m2: 30.80
+  hard_body_radius_m: 0.48
+
+- name: PHASMA-DIRAC
+  sequence_number: 33
+  catid: 799502004
+  mission_time_s: 3553.660
+  date: 2025-11-10T19:18:13.650Z
+  r_ecef_m: [5192512.396, 4531958.468, -154358.671]
+  v_ecef_m_per_s: [1097.018, -1015.050, 7539.097]
+  mean_perigee_altitude_km: 498.271
+  mean_apogee_altitude_km: 516.771
+  mean_inclination_deg: 97.434
+  mean_argument_of_perigee_deg: 101.473
+  mean_longitude_ascending_node_deg: 40.947
+  mean_mean_anomaly_deg: -102.616
+  ballistic_coef_kg_per_m2: 173.50
+  hard_body_radius_m: 0.34
+
+- name: FLOCK4H 28
+  sequence_number: 34
+  catid: 799501918
+  mission_time_s: 3560.760
+  date: 2025-11-10T19:18:20.750Z
+  r_ecef_m: [5200151.365, 4524613.503, -100817.199]
+  v_ecef_m_per_s: [1053.164, -1055.471, 7542.134]
+  mean_perigee_altitude_km: 503.285
+  mean_apogee_altitude_km: 519.524
+  mean_inclination_deg: 97.444
+  mean_argument_of_perigee_deg: 75.658
+  mean_longitude_ascending_node_deg: 40.917
+  mean_mean_anomaly_deg: -76.372
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 12
+  sequence_number: 35
+  catid: 799501944
+  mission_time_s: 3567.860
+  date: 2025-11-10T19:18:27.850Z
+  r_ecef_m: [5207462.363, 4516978.662, -47274.651]
+  v_ecef_m_per_s: [1007.238, -1095.304, 7540.994]
+  mean_perigee_altitude_km: 500.296
+  mean_apogee_altitude_km: 516.039
+  mean_inclination_deg: 97.444
+  mean_argument_of_perigee_deg: 98.917
+  mean_longitude_ascending_node_deg: 40.887
+  mean_mean_anomaly_deg: -99.184
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: TRYAD-1
+  sequence_number: 36
+  catid: 799501928
+  mission_time_s: 3578.260
+  date: 2025-11-10T19:18:38.250Z
+  r_ecef_m: [5217580.973, 4505283.105, 31165.279]
+  v_ecef_m_per_s: [938.342, -1153.800, 7543.058]
+  mean_perigee_altitude_km: 502.431
+  mean_apogee_altitude_km: 520.563
+  mean_inclination_deg: 97.436
+  mean_argument_of_perigee_deg: 76.585
+  mean_longitude_ascending_node_deg: 40.844
+  mean_mean_anomaly_deg: -76.177
+  ballistic_coef_kg_per_m2: 47.80
+  hard_body_radius_m: 0.34
+
+- name: CTC-1B
+  sequence_number: 37
+  catid: 799501934
+  mission_time_s: 3589.060
+  date: 2025-11-10T19:18:49.050Z
+  r_ecef_m: [5227347.069, 4492496.401, 112611.780]
+  v_ecef_m_per_s: [869.152, -1214.020, 7539.982]
+  mean_perigee_altitude_km: 499.694
+  mean_apogee_altitude_km: 515.911
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 101.233
+  mean_longitude_ascending_node_deg: 40.799
+  mean_mean_anomaly_deg: -100.157
+  ballistic_coef_kg_per_m2: 142.00
+  hard_body_radius_m: 0.82
+
+- name: FLOCK4H 29
+  sequence_number: 38
+  catid: 799501917
+  mission_time_s: 3597.760
+  date: 2025-11-10T19:18:57.750Z
+  r_ecef_m: [5234659.975, 4481722.539, 178215.523]
+  v_ecef_m_per_s: [811.874, -1262.625, 7540.432]
+  mean_perigee_altitude_km: 502.701
+  mean_apogee_altitude_km: 520.032
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 76.863
+  mean_longitude_ascending_node_deg: 40.763
+  mean_mean_anomaly_deg: -75.230
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: NEWSAT-51
+  sequence_number: 39
+  catid: 799501958
+  mission_time_s: 3606.060
+  date: 2025-11-10T19:19:06.050Z
+  r_ecef_m: [5241177.249, 4471051.914, 240781.763]
+  v_ecef_m_per_s: [758.212, -1308.513, 7536.637]
+  mean_perigee_altitude_km: 500.475
+  mean_apogee_altitude_km: 516.336
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 97.039
+  mean_longitude_ascending_node_deg: 40.728
+  mean_mean_anomaly_deg: -94.889
+  ballistic_coef_kg_per_m2: 63.20
+  hard_body_radius_m: 0.56
+
+- name: PHASMA-LAMARR
+  sequence_number: 40
+  catid: 799502003
+  mission_time_s: 3619.960
+  date: 2025-11-10T19:19:19.950Z
+  r_ecef_m: [5251078.727, 4452323.362, 345519.126]
+  v_ecef_m_per_s: [668.066, -1385.219, 7531.130]
+  mean_perigee_altitude_km: 500.195
+  mean_apogee_altitude_km: 514.877
+  mean_inclination_deg: 97.449
+  mean_argument_of_perigee_deg: 104.152
+  mean_longitude_ascending_node_deg: 40.670
+  mean_mean_anomaly_deg: -101.135
+  ballistic_coef_kg_per_m2: 173.50
+  hard_body_radius_m: 0.34
+
+- name: PIAST-M
+  sequence_number: 41
+  catid: 799501953
+  mission_time_s: 3627.960
+  date: 2025-11-10T19:19:27.950Z
+  r_ecef_m: [5256201.484, 4441070.652, 405763.811]
+  v_ecef_m_per_s: [614.018, -1429.076, 7527.946]
+  mean_perigee_altitude_km: 500.146
+  mean_apogee_altitude_km: 516.436
+  mean_inclination_deg: 97.442
+  mean_argument_of_perigee_deg: 97.710
+  mean_longitude_ascending_node_deg: 40.637
+  mean_mean_anomaly_deg: -94.172
+  ballistic_coef_kg_per_m2: 33.27
+  hard_body_radius_m: 0.36
+
+- name: FLOCK4H 8
+  sequence_number: 42
+  catid: 799501940
+  mission_time_s: 3635.560
+  date: 2025-11-10T19:19:35.550Z
+  r_ecef_m: [5260679.609, 4430051.631, 462969.908]
+  v_ecef_m_per_s: [564.626, -1470.880, 7525.467]
+  mean_perigee_altitude_km: 503.152
+  mean_apogee_altitude_km: 519.224
+  mean_inclination_deg: 97.445
+  mean_argument_of_perigee_deg: 76.890
+  mean_longitude_ascending_node_deg: 40.605
+  mean_mean_anomaly_deg: -72.880
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: WISDOM A-B
+  sequence_number: 43
+  catid: 799501926
+  mission_time_s: 3644.360
+  date: 2025-11-10T19:19:44.350Z
+  r_ecef_m: [5265384.977, 4416898.580, 529162.124]
+  v_ecef_m_per_s: [505.342, -1518.501, 7518.573]
+  mean_perigee_altitude_km: 499.826
+  mean_apogee_altitude_km: 516.675
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 97.885
+  mean_longitude_ascending_node_deg: 40.568
+  mean_mean_anomaly_deg: -93.306
+  ballistic_coef_kg_per_m2: 41.50
+  hard_body_radius_m: 0.32
+
+- name: IRIDE FM5
+  sequence_number: 44
+  catid: 799501968
+  mission_time_s: 3653.360
+  date: 2025-11-10T19:19:53.350Z
+  r_ecef_m: [5269670.934, 4403009.471, 596811.663]
+  v_ecef_m_per_s: [446.279, -1567.537, 7513.913]
+  mean_perigee_altitude_km: 502.641
+  mean_apogee_altitude_km: 519.534
+  mean_inclination_deg: 97.441
+  mean_argument_of_perigee_deg: 78.447
+  mean_longitude_ascending_node_deg: 40.531
+  mean_mean_anomaly_deg: -73.305
+  ballistic_coef_kg_per_m2: 31.50
+  hard_body_radius_m: 0.86
+
+- name: AE5RA
+  sequence_number: 45
+  catid: 799501950
+  mission_time_s: 3661.260
+  date: 2025-11-10T19:20:01.250Z
+  r_ecef_m: [5272991.271, 4390459.722, 656139.526]
+  v_ecef_m_per_s: [394.844, -1610.043, 7506.387]
+  mean_perigee_altitude_km: 500.935
+  mean_apogee_altitude_km: 515.920
+  mean_inclination_deg: 97.447
+  mean_argument_of_perigee_deg: 96.882
+  mean_longitude_ascending_node_deg: 40.499
+  mean_mean_anomaly_deg: -91.250
+  ballistic_coef_kg_per_m2: 27.30
+  hard_body_radius_m: 0.47
+
+- name: MAUVE
+  sequence_number: 46
+  catid: 799501929
+  mission_time_s: 3669.160
+  date: 2025-11-10T19:20:09.150Z
+  r_ecef_m: [5275896.110, 4377572.476, 715419.750]
+  v_ecef_m_per_s: [341.789, -1652.431, 7499.751]
+  mean_perigee_altitude_km: 500.491
+  mean_apogee_altitude_km: 516.248
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 97.226
+  mean_longitude_ascending_node_deg: 40.465
+  mean_mean_anomaly_deg: -91.088
+  ballistic_coef_kg_per_m2: 188.00
+  hard_body_radius_m: 0.66
+
+- name: IMPULSE-3 MIRA
+  sequence_number: 47
+  catid: 799501989
+  mission_time_s: 3680.760
+  date: 2025-11-10T19:20:20.750Z
+  r_ecef_m: [5279408.760, 4358038.931, 802364.077]
+  v_ecef_m_per_s: [263.923, -1714.343, 7488.986]
+  mean_perigee_altitude_km: 500.004
+  mean_apogee_altitude_km: 516.652
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 97.449
+  mean_longitude_ascending_node_deg: 40.416
+  mean_mean_anomaly_deg: -90.571
+  ballistic_coef_kg_per_m2: 22.90
+  hard_body_radius_m: 3.56
+
+- name: CTC-1C
+  sequence_number: 48
+  catid: 799501933
+  mission_time_s: 3698.460
+  date: 2025-11-10T19:20:38.450Z
+  r_ecef_m: [5283046.396, 4326864.114, 934774.014]
+  v_ecef_m_per_s: [146.587, -1808.546, 7472.026]
+  mean_perigee_altitude_km: 503.140
+  mean_apogee_altitude_km: 520.295
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 74.251
+  mean_longitude_ascending_node_deg: 40.343
+  mean_mean_anomaly_deg: -66.260
+  ballistic_coef_kg_per_m2: 142.00
+  hard_body_radius_m: 0.82
+
+- name: IRIDE FM6
+  sequence_number: 49
+  catid: 799501966
+  mission_time_s: 3707.160
+  date: 2025-11-10T19:20:47.150Z
+  r_ecef_m: [5284067.473, 4310931.810, 999724.097]
+  v_ecef_m_per_s: [88.647, -1853.974, 7460.033]
+  mean_perigee_altitude_km: 500.788
+  mean_apogee_altitude_km: 516.323
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 95.791
+  mean_longitude_ascending_node_deg: 40.307
+  mean_mean_anomaly_deg: -87.252
+  ballistic_coef_kg_per_m2: 31.50
+  hard_body_radius_m: 0.86
+
+- name: MERCURY ONE (M1)
+  sequence_number: 50
+  catid: 799502001
+  mission_time_s: 3721.160
+  date: 2025-11-10T19:21:01.150Z
+  r_ecef_m: [5284647.081, 4284457.556, 1104051.699]
+  v_ecef_m_per_s: [-5.579, -1927.313, 7443.400]
+  mean_perigee_altitude_km: 502.472
+  mean_apogee_altitude_km: 519.724
+  mean_inclination_deg: 97.441
+  mean_argument_of_perigee_deg: 78.799
+  mean_longitude_ascending_node_deg: 40.248
+  mean_mean_anomaly_deg: -69.370
+  ballistic_coef_kg_per_m2: 38.24
+  hard_body_radius_m: 0.58
+
+- name: FLOCK4H 25
+  sequence_number: 51
+  catid: 799501921
+  mission_time_s: 3728.160
+  date: 2025-11-10T19:21:08.150Z
+  r_ecef_m: [5284447.532, 4270845.803, 1156116.071]
+  v_ecef_m_per_s: [-51.456, -1963.426, 7432.387]
+  mean_perigee_altitude_km: 501.091
+  mean_apogee_altitude_km: 516.043
+  mean_inclination_deg: 97.446
+  mean_argument_of_perigee_deg: 95.516
+  mean_longitude_ascending_node_deg: 40.220
+  mean_mean_anomaly_deg: -85.655
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: PIAST-S2
+  sequence_number: 52
+  catid: 799501952
+  mission_time_s: 3736.660
+  date: 2025-11-10T19:21:16.650Z
+  r_ecef_m: [5283760.738, 4253968.381, 1219246.827]
+  v_ecef_m_per_s: [-108.969, -2007.545, 7421.374]
+  mean_perigee_altitude_km: 502.707
+  mean_apogee_altitude_km: 519.402
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 78.408
+  mean_longitude_ascending_node_deg: 40.184
+  mean_mean_anomaly_deg: -68.004
+  ballistic_coef_kg_per_m2: 29.73
+  hard_body_radius_m: 0.40
+
+- name: FLOCK4H 6
+  sequence_number: 53
+  catid: 799501942
+  mission_time_s: 3746.960
+  date: 2025-11-10T19:21:26.950Z
+  r_ecef_m: [5282278.534, 4233021.342, 1295596.831]
+  v_ecef_m_per_s: [-179.040, -2059.974, 7404.202]
+  mean_perigee_altitude_km: 500.201
+  mean_apogee_altitude_km: 517.066
+  mean_inclination_deg: 97.438
+  mean_argument_of_perigee_deg: 95.613
+  mean_longitude_ascending_node_deg: 40.140
+  mean_mean_anomaly_deg: -84.547
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: 3UCUBED-A
+  sequence_number: 54
+  catid: 799501931
+  mission_time_s: 3755.260
+  date: 2025-11-10T19:21:35.250Z
+  r_ecef_m: [5280569.477, 4215745.255, 1357003.698]
+  v_ecef_m_per_s: [-233.586, -2102.701, 7392.011]
+  mean_perigee_altitude_km: 502.705
+  mean_apogee_altitude_km: 519.091
+  mean_inclination_deg: 97.444
+  mean_argument_of_perigee_deg: 79.110
+  mean_longitude_ascending_node_deg: 40.107
+  mean_mean_anomaly_deg: -67.533
+  ballistic_coef_kg_per_m2: 164.82
+  hard_body_radius_m: 0.33
+
+- name: IRIDE FM4
+  sequence_number: 55
+  catid: 799501969
+  mission_time_s: 3762.560
+  date: 2025-11-10T19:21:42.550Z
+  r_ecef_m: [5278679.973, 4200261.478, 1410913.434]
+  v_ecef_m_per_s: [-283.508, -2139.317, 7378.460]
+  mean_perigee_altitude_km: 500.495
+  mean_apogee_altitude_km: 516.975
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 94.809
+  mean_longitude_ascending_node_deg: 40.075
+  mean_mean_anomaly_deg: -82.760
+  ballistic_coef_kg_per_m2: 31.50
+  hard_body_radius_m: 0.86
+
+- name: ICEYE-X61
+  sequence_number: 56
+  catid: 799502006
+  mission_time_s: 3772.560
+  date: 2025-11-10T19:21:52.550Z
+  r_ecef_m: [5275514.095, 4178608.670, 1484617.244]
+  v_ecef_m_per_s: [-350.345, -2190.017, 7361.826]
+  mean_perigee_altitude_km: 502.242
+  mean_apogee_altitude_km: 519.120
+  mean_inclination_deg: 97.442
+  mean_argument_of_perigee_deg: 81.343
+  mean_longitude_ascending_node_deg: 40.034
+  mean_mean_anomaly_deg: -68.667
+  ballistic_coef_kg_per_m2: 15.00
+  hard_body_radius_m: 2.05
+
+- name: FLOCK4H 27
+  sequence_number: 57
+  catid: 799501919
+  mission_time_s: 3779.960
+  date: 2025-11-10T19:21:59.950Z
+  r_ecef_m: [5272739.663, 4162272.138, 1539042.179]
+  v_ecef_m_per_s: [-399.279, -2227.190, 7348.288]
+  mean_perigee_altitude_km: 502.831
+  mean_apogee_altitude_km: 518.871
+  mean_inclination_deg: 97.446
+  mean_argument_of_perigee_deg: 78.860
+  mean_longitude_ascending_node_deg: 40.004
+  mean_mean_anomaly_deg: -65.726
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: IRIDE FM8
+  sequence_number: 58
+  catid: 799501973
+  mission_time_s: 3787.660
+  date: 2025-11-10T19:22:07.650Z
+  r_ecef_m: [5269458.434, 4144974.278, 1595561.983]
+  v_ecef_m_per_s: [-452.194, -2265.427, 7333.533]
+  mean_perigee_altitude_km: 502.242
+  mean_apogee_altitude_km: 519.733
+  mean_inclination_deg: 97.440
+  mean_argument_of_perigee_deg: 80.003
+  mean_longitude_ascending_node_deg: 39.971
+  mean_mean_anomaly_deg: -66.371
+  ballistic_coef_kg_per_m2: 31.50
+  hard_body_radius_m: 0.86
+
+- name: IRIDE PFM1
+  sequence_number: 59
+  catid: 799501972
+  mission_time_s: 3797.960
+  date: 2025-11-10T19:22:17.950Z
+  r_ecef_m: [5264447.750, 4121378.611, 1670985.414]
+  v_ecef_m_per_s: [-521.643, -2316.324, 7312.841]
+  mean_perigee_altitude_km: 502.005
+  mean_apogee_altitude_km: 519.556
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 81.576
+  mean_longitude_ascending_node_deg: 39.928
+  mean_mean_anomaly_deg: -67.291
+  ballistic_coef_kg_per_m2: 31.50
+  hard_body_radius_m: 0.86
+
+- name: AC1-002
+  sequence_number: 60
+  catid: 799501998
+  mission_time_s: 3807.760
+  date: 2025-11-10T19:22:27.750Z
+  r_ecef_m: [5259019.344, 4098441.169, 1742546.028]
+  v_ecef_m_per_s: [-586.790, -2364.465, 7292.313]
+  mean_perigee_altitude_km: 502.292
+  mean_apogee_altitude_km: 518.714
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 82.006
+  mean_longitude_ascending_node_deg: 39.888
+  mean_mean_anomaly_deg: -67.110
+  ballistic_coef_kg_per_m2: 33.49
+  hard_body_radius_m: 0.70
+
+- name: FLOCK4H 10
+  sequence_number: 61
+  catid: 799501946
+  mission_time_s: 3824.460
+  date: 2025-11-10T19:22:44.450Z
+  r_ecef_m: [5248278.945, 4058284.280, 1864016.296]
+  v_ecef_m_per_s: [-698.457, -2445.370, 7254.629]
+  mean_perigee_altitude_km: 501.424
+  mean_apogee_altitude_km: 516.064
+  mean_inclination_deg: 97.446
+  mean_argument_of_perigee_deg: 93.533
+  mean_longitude_ascending_node_deg: 39.819
+  mean_mean_anomaly_deg: -77.587
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: NEWSAT-52
+  sequence_number: 62
+  catid: 799501959
+  mission_time_s: 3836.360
+  date: 2025-11-10T19:22:56.350Z
+  r_ecef_m: [5239480.222, 4028842.965, 1950187.084]
+  v_ecef_m_per_s: [-778.825, -2502.432, 7226.791]
+  mean_perigee_altitude_km: 501.116
+  mean_apogee_altitude_km: 516.122
+  mean_inclination_deg: 97.444
+  mean_argument_of_perigee_deg: 94.772
+  mean_longitude_ascending_node_deg: 39.769
+  mean_mean_anomaly_deg: -78.070
+  ballistic_coef_kg_per_m2: 63.20
+  hard_body_radius_m: 0.56
+
+- name: IRIDE FM7
+  sequence_number: 63
+  catid: 799501965
+  mission_time_s: 3849.160
+  date: 2025-11-10T19:23:09.150Z
+  r_ecef_m: [5228950.737, 3996419.210, 2042500.875]
+  v_ecef_m_per_s: [-865.910, -2563.503, 7196.669]
+  mean_perigee_altitude_km: 502.138
+  mean_apogee_altitude_km: 519.753
+  mean_inclination_deg: 97.440
+  mean_argument_of_perigee_deg: 80.616
+  mean_longitude_ascending_node_deg: 39.715
+  mean_mean_anomaly_deg: -63.096
+  ballistic_coef_kg_per_m2: 31.50
+  hard_body_radius_m: 0.86
+
+- name: FLOCK4H 30
+  sequence_number: 64
+  catid: 799501916
+  mission_time_s: 3859.560
+  date: 2025-11-10T19:23:19.550Z
+  r_ecef_m: [5219586.239, 3969506.977, 2117202.973]
+  v_ecef_m_per_s: [-936.249, -2612.319, 7170.042]
+  mean_perigee_altitude_km: 501.721
+  mean_apogee_altitude_km: 519.722
+  mean_inclination_deg: 97.438
+  mean_argument_of_perigee_deg: 82.861
+  mean_longitude_ascending_node_deg: 39.670
+  mean_mean_anomaly_deg: -64.678
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: ICEYE-X62
+  sequence_number: 65
+  catid: 799502007
+  mission_time_s: 3868.460
+  date: 2025-11-10T19:23:28.450Z
+  r_ecef_m: [5210996.955, 3946068.141, 2180905.709]
+  v_ecef_m_per_s: [-995.030, -2653.616, 7145.775]
+  mean_perigee_altitude_km: 500.964
+  mean_apogee_altitude_km: 516.657
+  mean_inclination_deg: 97.442
+  mean_argument_of_perigee_deg: 93.842
+  mean_longitude_ascending_node_deg: 39.635
+  mean_mean_anomaly_deg: -75.106
+  ballistic_coef_kg_per_m2: 15.00
+  hard_body_radius_m: 2.05
+
+- name: PIAST-S1
+  sequence_number: 66
+  catid: 799501961
+  mission_time_s: 3877.060
+  date: 2025-11-10T19:23:37.050Z
+  r_ecef_m: [5202189.982, 3923077.854, 2242267.635]
+  v_ecef_m_per_s: [-1053.343, -2693.663, 7123.471]
+  mean_perigee_altitude_km: 501.955
+  mean_apogee_altitude_km: 519.569
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 82.007
+  mean_longitude_ascending_node_deg: 39.598
+  mean_mean_anomaly_deg: -62.723
+  ballistic_coef_kg_per_m2: 29.73
+  hard_body_radius_m: 0.40
+
+- name: UMBRA-11
+  sequence_number: 67
+  catid: 799501975
+  mission_time_s: 3884.060
+  date: 2025-11-10T19:23:44.050Z
+  r_ecef_m: [5194657.416, 3904108.356, 2292060.546]
+  v_ecef_m_per_s: [-1099.735, -2725.852, 7104.032]
+  mean_perigee_altitude_km: 502.136
+  mean_apogee_altitude_km: 518.949
+  mean_inclination_deg: 97.442
+  mean_argument_of_perigee_deg: 82.275
+  mean_longitude_ascending_node_deg: 39.570
+  mean_mean_anomaly_deg: -62.554
+  ballistic_coef_kg_per_m2: 54.50
+  hard_body_radius_m: 3.03
+
+- name: FLOCK4H 26
+  sequence_number: 68
+  catid: 799501920
+  mission_time_s: 3896.660
+  date: 2025-11-10T19:23:56.650Z
+  r_ecef_m: [5180268.129, 3869406.148, 2381339.299]
+  v_ecef_m_per_s: [-1184.857, -2782.774, 7066.998]
+  mean_perigee_altitude_km: 500.478
+  mean_apogee_altitude_km: 517.125
+  mean_inclination_deg: 97.438
+  mean_argument_of_perigee_deg: 94.915
+  mean_longitude_ascending_node_deg: 39.516
+  mean_mean_anomaly_deg: -74.388
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 32
+  sequence_number: 69
+  catid: 799501914
+  mission_time_s: 3924.860
+  date: 2025-11-10T19:24:24.850Z
+  r_ecef_m: [5144218.119, 3789141.658, 2579455.970]
+  v_ecef_m_per_s: [-1372.731, -2908.511, 6981.176]
+  mean_perigee_altitude_km: 500.247
+  mean_apogee_altitude_km: 515.883
+  mean_inclination_deg: 97.440
+  mean_argument_of_perigee_deg: 99.489
+  mean_longitude_ascending_node_deg: 39.399
+  mean_mean_anomaly_deg: -77.184
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 31
+  sequence_number: 70
+  catid: 799501915
+  mission_time_s: 3952.260
+  date: 2025-11-10T19:24:52.250Z
+  r_ecef_m: [5104112.275, 3707802.733, 2769552.623]
+  v_ecef_m_per_s: [-1554.314, -3027.414, 6891.685]
+  mean_perigee_altitude_km: 500.673
+  mean_apogee_altitude_km: 515.311
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 99.143
+  mean_longitude_ascending_node_deg: 39.286
+  mean_mean_anomaly_deg: -75.114
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: IRIDE FM2
+  sequence_number: 71
+  catid: 799501964
+  mission_time_s: 3963.760
+  date: 2025-11-10T19:25:03.750Z
+  r_ecef_m: [5085794.014, 3672701.916, 2848590.626]
+  v_ecef_m_per_s: [-1630.385, -3076.465, 6852.692]
+  mean_perigee_altitude_km: 501.453
+  mean_apogee_altitude_km: 516.274
+  mean_inclination_deg: 97.445
+  mean_argument_of_perigee_deg: 92.203
+  mean_longitude_ascending_node_deg: 39.239
+  mean_mean_anomaly_deg: -67.451
+  ballistic_coef_kg_per_m2: 31.50
+  hard_body_radius_m: 0.86
+
+- name: ICEYE-X60
+  sequence_number: 72
+  catid: 799501991
+  mission_time_s: 3973.660
+  date: 2025-11-10T19:25:13.650Z
+  r_ecef_m: [5069320.181, 3642034.029, 2916261.128]
+  v_ecef_m_per_s: [-1696.632, -3117.872, 6817.676]
+  mean_perigee_altitude_km: 501.018
+  mean_apogee_altitude_km: 516.775
+  mean_inclination_deg: 97.441
+  mean_argument_of_perigee_deg: 93.320
+  mean_longitude_ascending_node_deg: 39.196
+  mean_mean_anomaly_deg: -67.934
+  ballistic_coef_kg_per_m2: 49.00
+  hard_body_radius_m: 2.05
+
+- name: NEWSAT-47
+  sequence_number: 73
+  catid: 799501957
+  mission_time_s: 3984.660
+  date: 2025-11-10T19:25:24.650Z
+  r_ecef_m: [5050257.574, 3607486.876, 2991046.827]
+  v_ecef_m_per_s: [-1769.866, -3163.762, 6778.724]
+  mean_perigee_altitude_km: 501.730
+  mean_apogee_altitude_km: 519.543
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 83.605
+  mean_longitude_ascending_node_deg: 39.149
+  mean_mean_anomaly_deg: -57.520
+  ballistic_coef_kg_per_m2: 63.20
+  hard_body_radius_m: 0.56
+
+- name: FLOCK4H 34
+  sequence_number: 74
+  catid: 799501924
+  mission_time_s: 3991.860
+  date: 2025-11-10T19:25:31.850Z
+  r_ecef_m: [5037352.331, 3584603.144, 3039755.365]
+  v_ecef_m_per_s: [-1815.544, -3193.268, 6751.752]
+  mean_perigee_altitude_km: 501.803
+  mean_apogee_altitude_km: 516.334
+  mean_inclination_deg: 97.446
+  mean_argument_of_perigee_deg: 89.797
+  mean_longitude_ascending_node_deg: 39.123
+  mean_mean_anomaly_deg: -63.272
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: ICEYE-X58
+  sequence_number: 75
+  catid: 799501956
+  mission_time_s: 3999.160
+  date: 2025-11-10T19:25:39.150Z
+  r_ecef_m: [5023915.323, 3561182.502, 3088945.955]
+  v_ecef_m_per_s: [-1864.426, -3223.122, 6724.940]
+  mean_perigee_altitude_km: 502.102
+  mean_apogee_altitude_km: 518.842
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 82.594
+  mean_longitude_ascending_node_deg: 39.091
+  mean_mean_anomaly_deg: -55.601
+  ballistic_coef_kg_per_m2: 53.00
+  hard_body_radius_m: 2.11
+
+- name: FLOCK4H 1
+  sequence_number: 76
+  catid: 799501939
+  mission_time_s: 4037.760
+  date: 2025-11-10T19:26:17.750Z
+  r_ecef_m: [4947069.505, 3433809.168, 3345619.782]
+  v_ecef_m_per_s: [-2115.920, -3375.355, 6572.128]
+  mean_perigee_altitude_km: 501.133
+  mean_apogee_altitude_km: 515.314
+  mean_inclination_deg: 97.444
+  mean_argument_of_perigee_deg: 96.361
+  mean_longitude_ascending_node_deg: 38.931
+  mean_mean_anomaly_deg: -66.931
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 16
+  sequence_number: 77
+  catid: 799501906
+  mission_time_s: 4062.060
+  date: 2025-11-10T19:26:42.050Z
+  r_ecef_m: [4893720.110, 3350654.347, 3504111.863]
+  v_ecef_m_per_s: [-2273.425, -3468.273, 6471.725]
+  mean_perigee_altitude_km: 502.466
+  mean_apogee_altitude_km: 519.330
+  mean_inclination_deg: 97.445
+  mean_argument_of_perigee_deg: 79.049
+  mean_longitude_ascending_node_deg: 38.830
+  mean_mean_anomaly_deg: -48.086
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: AC1-003
+  sequence_number: 78
+  catid: 799502000
+  mission_time_s: 4069.160
+  date: 2025-11-10T19:26:49.150Z
+  r_ecef_m: [4877412.845, 3325934.704, 3549942.818]
+  v_ecef_m_per_s: [-2319.254, -3494.091, 6440.067]
+  mean_perigee_altitude_km: 501.380
+  mean_apogee_altitude_km: 516.467
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 91.884
+  mean_longitude_ascending_node_deg: 38.799
+  mean_mean_anomaly_deg: -60.468
+  ballistic_coef_kg_per_m2: 33.49
+  hard_body_radius_m: 0.70
+
+- name: FLOCK4H 20
+  sequence_number: 79
+  catid: 799501902
+  mission_time_s: 4113.660
+  date: 2025-11-10T19:27:33.650Z
+  r_ecef_m: [4767857.691, 3166861.334, 3832133.309]
+  v_ecef_m_per_s: [-2603.952, -3653.916, 6240.289]
+  mean_perigee_altitude_km: 502.089
+  mean_apogee_altitude_km: 520.854
+  mean_inclination_deg: 97.440
+  mean_argument_of_perigee_deg: 79.645
+  mean_longitude_ascending_node_deg: 38.612
+  mean_mean_anomaly_deg: -45.410
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: HYDROGNSS-2
+  sequence_number: 80
+  catid: 799501967
+  mission_time_s: 4121.160
+  date: 2025-11-10T19:27:41.150Z
+  r_ecef_m: [4748156.057, 3139361.664, 3878798.172]
+  v_ecef_m_per_s: [-2650.691, -3679.583, 6204.589]
+  mean_perigee_altitude_km: 501.926
+  mean_apogee_altitude_km: 518.923
+  mean_inclination_deg: 97.442
+  mean_argument_of_perigee_deg: 83.544
+  mean_longitude_ascending_node_deg: 38.582
+  mean_mean_anomaly_deg: -48.839
+  ballistic_coef_kg_per_m2: 66.40
+  hard_body_radius_m: 1.05
+
+- name: FLOCK4H 3
+  sequence_number: 81
+  catid: 799501937
+  mission_time_s: 4159.060
+  date: 2025-11-10T19:28:19.050Z
+  r_ecef_m: [4643198.992, 2997504.430, 4110466.311]
+  v_ecef_m_per_s: [-2888.130, -3805.428, 6019.681]
+  mean_perigee_altitude_km: 501.846
+  mean_apogee_altitude_km: 520.584
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 81.884
+  mean_longitude_ascending_node_deg: 38.422
+  mean_mean_anomaly_deg: -44.777
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 15
+  sequence_number: 82
+  catid: 799501907
+  mission_time_s: 4179.560
+  date: 2025-11-10T19:28:39.550Z
+  r_ecef_m: [4582714.943, 2918830.822, 4232792.702]
+  v_ecef_m_per_s: [-3013.966, -3869.484, 5913.997]
+  mean_perigee_altitude_km: 500.802
+  mean_apogee_altitude_km: 516.580
+  mean_inclination_deg: 97.438
+  mean_argument_of_perigee_deg: 95.637
+  mean_longitude_ascending_node_deg: 38.336
+  mean_mean_anomaly_deg: -57.232
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: AC1-001
+  sequence_number: 83
+  catid: 799501999
+  mission_time_s: 4192.360
+  date: 2025-11-10T19:28:52.350Z
+  r_ecef_m: [4543643.416, 2869037.657, 4308072.424]
+  v_ecef_m_per_s: [-3091.163, -3909.081, 5847.701]
+  mean_perigee_altitude_km: 501.489
+  mean_apogee_altitude_km: 516.446
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 90.913
+  mean_longitude_ascending_node_deg: 38.286
+  mean_mean_anomaly_deg: -51.711
+  ballistic_coef_kg_per_m2: 33.49
+  hard_body_radius_m: 0.70
+
+- name: NAHLA
+  sequence_number: 84
+  catid: 799501974
+  mission_time_s: 4207.260
+  date: 2025-11-10T19:29:07.250Z
+  r_ecef_m: [4496904.350, 2810459.998, 4394619.385]
+  v_ecef_m_per_s: [-3181.899, -3953.463, 5768.328]
+  mean_perigee_altitude_km: 501.259
+  mean_apogee_altitude_km: 516.797
+  mean_inclination_deg: 97.441
+  mean_argument_of_perigee_deg: 92.057
+  mean_longitude_ascending_node_deg: 38.222
+  mean_mean_anomaly_deg: -51.908
+  ballistic_coef_kg_per_m2: 110.00
+  hard_body_radius_m: 1.09
+
+- name: FLOCK4H 5
+  sequence_number: 85
+  catid: 799501943
+  mission_time_s: 4214.460
+  date: 2025-11-10T19:29:14.450Z
+  r_ecef_m: [4473838.123, 2781919.740, 4436016.471]
+  v_ecef_m_per_s: [-3225.862, -3974.364, 5729.271]
+  mean_perigee_altitude_km: 500.952
+  mean_apogee_altitude_km: 517.274
+  mean_inclination_deg: 97.438
+  mean_argument_of_perigee_deg: 93.500
+  mean_longitude_ascending_node_deg: 38.190
+  mean_mean_anomaly_deg: -52.888
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: IRIDE FM3
+  sequence_number: 86
+  catid: 799501963
+  mission_time_s: 4233.160
+  date: 2025-11-10T19:29:33.150Z
+  r_ecef_m: [4412483.451, 2707088.576, 4542210.616]
+  v_ecef_m_per_s: [-3336.127, -4028.112, 5627.343]
+  mean_perigee_altitude_km: 501.783
+  mean_apogee_altitude_km: 516.558
+  mean_inclination_deg: 97.444
+  mean_argument_of_perigee_deg: 88.127
+  mean_longitude_ascending_node_deg: 38.118
+  mean_mean_anomaly_deg: -46.351
+  ballistic_coef_kg_per_m2: 31.50
+  hard_body_radius_m: 0.86
+
+- name: YAM-9
+  sequence_number: 87
+  catid: 799501971
+  mission_time_s: 4244.260
+  date: 2025-11-10T19:29:44.250Z
+  r_ecef_m: [4375076.176, 2662203.240, 4604329.993]
+  v_ecef_m_per_s: [-3402.889, -4058.917, 5565.512]
+  mean_perigee_altitude_km: 501.755
+  mean_apogee_altitude_km: 519.064
+  mean_inclination_deg: 97.441
+  mean_argument_of_perigee_deg: 84.681
+  mean_longitude_ascending_node_deg: 38.068
+  mean_mean_anomaly_deg: -42.194
+  ballistic_coef_kg_per_m2: 52.50
+  hard_body_radius_m: 2.44
+
+- name: FLOCK4H 36
+  sequence_number: 88
+  catid: 799501922
+  mission_time_s: 4264.460
+  date: 2025-11-10T19:30:04.450Z
+  r_ecef_m: [4305147.980, 2579668.702, 4715594.055]
+  v_ecef_m_per_s: [-3520.398, -4113.286, 5450.997]
+  mean_perigee_altitude_km: 502.215
+  mean_apogee_altitude_km: 518.980
+  mean_inclination_deg: 97.445
+  mean_argument_of_perigee_deg: 80.443
+  mean_longitude_ascending_node_deg: 37.988
+  mean_mean_anomaly_deg: -36.691
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: W-SERIES 5
+  sequence_number: 89
+  catid: 799501990
+  mission_time_s: 4276.160
+  date: 2025-11-10T19:30:16.150Z
+  r_ecef_m: [4263554.065, 2531369.436, 4778962.110]
+  v_ecef_m_per_s: [-3588.814, -4142.775, 5382.163]
+  mean_perigee_altitude_km: 501.387
+  mean_apogee_altitude_km: 516.970
+  mean_inclination_deg: 97.441
+  mean_argument_of_perigee_deg: 90.812
+  mean_longitude_ascending_node_deg: 37.935
+  mean_mean_anomaly_deg: -46.309
+  ballistic_coef_kg_per_m2: 61.00
+  hard_body_radius_m: 1.45
+
+- name: PELICAN-5
+  sequence_number: 90
+  catid: 799501976
+  mission_time_s: 4286.660
+  date: 2025-11-10T19:30:26.650Z
+  r_ecef_m: [4225554.798, 2487728.211, 4835158.035]
+  v_ecef_m_per_s: [-3649.186, -4169.645, 5321.146]
+  mean_perigee_altitude_km: 501.889
+  mean_apogee_altitude_km: 518.856
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 83.699
+  mean_longitude_ascending_node_deg: 37.893
+  mean_mean_anomaly_deg: -38.537
+  ballistic_coef_kg_per_m2: 108.00
+  hard_body_radius_m: 1.64
+
+- name: FLOCK4H 35
+  sequence_number: 91
+  catid: 799501923
+  mission_time_s: 4333.060
+  date: 2025-11-10T19:31:13.050Z
+  r_ecef_m: [4050128.123, 2291694.439, 5075581.018]
+  v_ecef_m_per_s: [-3911.649, -4278.492, 5040.167]
+  mean_perigee_altitude_km: 501.688
+  mean_apogee_altitude_km: 520.637
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 83.776
+  mean_longitude_ascending_node_deg: 37.696
+  mean_mean_anomaly_deg: -35.672
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: PELICAN-6
+  sequence_number: 92
+  catid: 799501985
+  mission_time_s: 4341.860
+  date: 2025-11-10T19:31:21.850Z
+  r_ecef_m: [4015502.980, 2253958.804, 5119688.682]
+  v_ecef_m_per_s: [-3958.815, -4297.478, 4985.102]
+  mean_perigee_altitude_km: 501.661
+  mean_apogee_altitude_km: 516.905
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 88.292
+  mean_longitude_ascending_node_deg: 37.663
+  mean_mean_anomaly_deg: -39.642
+  ballistic_coef_kg_per_m2: 108.00
+  hard_body_radius_m: 1.64
+
+- name: HYDROGNSS-1
+  sequence_number: 93
+  catid: 799501970
+  mission_time_s: 4363.960
+  date: 2025-11-10T19:31:43.950Z
+  r_ecef_m: [3926669.255, 2158468.790, 5228325.961]
+  v_ecef_m_per_s: [-4079.547, -4343.923, 4845.801]
+  mean_perigee_altitude_km: 501.839
+  mean_apogee_altitude_km: 518.843
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 84.070
+  mean_longitude_ascending_node_deg: 37.571
+  mean_mean_anomaly_deg: -34.023
+  ballistic_coef_kg_per_m2: 66.40
+  hard_body_radius_m: 1.05
+
+- name: FGN_TUG_S01
+  sequence_number: 94
+  catid: 799501962
+  mission_time_s: 4373.660
+  date: 2025-11-10T19:31:53.650Z
+  r_ecef_m: [3886842.550, 2116241.254, 5275025.159]
+  v_ecef_m_per_s: [-4132.023, -4363.080, 4783.378]
+  mean_perigee_altitude_km: 501.661
+  mean_apogee_altitude_km: 518.941
+  mean_inclination_deg: 97.441
+  mean_argument_of_perigee_deg: 85.847
+  mean_longitude_ascending_node_deg: 37.529
+  mean_mean_anomaly_deg: -35.182
+  ballistic_coef_kg_per_m2: 106.90
+  hard_body_radius_m: 0.99
+
+- name: FLOCK4H 14
+  sequence_number: 95
+  catid: 799501908
+  mission_time_s: 4385.160
+  date: 2025-11-10T19:32:05.150Z
+  r_ecef_m: [3838976.172, 2065940.076, 5329605.064]
+  v_ecef_m_per_s: [-4193.801, -4384.991, 4708.577]
+  mean_perigee_altitude_km: 501.382
+  mean_apogee_altitude_km: 519.153
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 88.470
+  mean_longitude_ascending_node_deg: 37.478
+  mean_mean_anomaly_deg: -37.071
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 13
+  sequence_number: 96
+  catid: 799501909
+  mission_time_s: 4406.460
+  date: 2025-11-10T19:32:26.450Z
+  r_ecef_m: [3748476.034, 1972116.810, 5428417.514]
+  v_ecef_m_per_s: [-4305.106, -4423.617, 4568.313]
+  mean_perigee_altitude_km: 501.161
+  mean_apogee_altitude_km: 517.297
+  mean_inclination_deg: 97.439
+  mean_argument_of_perigee_deg: 92.935
+  mean_longitude_ascending_node_deg: 37.389
+  mean_mean_anomaly_deg: -40.189
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: ICEYE-X59
+  sequence_number: 97
+  catid: 799501992
+  mission_time_s: 4414.360
+  date: 2025-11-10T19:32:34.350Z
+  r_ecef_m: [3714308.782, 1937106.248, 5464301.823]
+  v_ecef_m_per_s: [-4345.834, -4437.793, 4516.301]
+  mean_perigee_altitude_km: 501.532
+  mean_apogee_altitude_km: 518.690
+  mean_inclination_deg: 97.440
+  mean_argument_of_perigee_deg: 87.532
+  mean_longitude_ascending_node_deg: 37.358
+  mean_mean_anomaly_deg: -34.293
+  ballistic_coef_kg_per_m2: 15.00
+  hard_body_radius_m: 2.05
+
+- name: ION SCV-022
+  sequence_number: 98
+  catid: 799501987
+  mission_time_s: 4443.760
+  date: 2025-11-10T19:33:03.750Z
+  r_ecef_m: [3584353.689, 1805919.215, 5594180.106]
+  v_ecef_m_per_s: [-4494.414, -4485.847, 4318.229]
+  mean_perigee_altitude_km: 501.813
+  mean_apogee_altitude_km: 518.561
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 84.359
+  mean_longitude_ascending_node_deg: 37.239
+  mean_mean_anomaly_deg: -29.270
+  ballistic_coef_kg_per_m2: 55.60
+  hard_body_radius_m: 1.08
+
+- name: FLOCK4H 19
+  sequence_number: 99
+  catid: 799501903
+  mission_time_s: 4511.760
+  date: 2025-11-10T19:34:11.750Z
+  r_ecef_m: [3267450.089, 1497682.921, 5871744.610]
+  v_ecef_m_per_s: [-4821.078, -4575.790, 3842.245]
+  mean_perigee_altitude_km: 501.878
+  mean_apogee_altitude_km: 516.775
+  mean_inclination_deg: 97.444
+  mean_argument_of_perigee_deg: 84.404
+  mean_longitude_ascending_node_deg: 36.959
+  mean_mean_anomaly_deg: -25.023
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 18
+  sequence_number: 100
+  catid: 799501904
+  mission_time_s: 4529.460
+  date: 2025-11-10T19:34:29.450Z
+  r_ecef_m: [3181381.372, 1416527.171, 5938618.757]
+  v_ecef_m_per_s: [-4902.364, -4594.744, 3714.900]
+  mean_perigee_altitude_km: 501.931
+  mean_apogee_altitude_km: 518.285
+  mean_inclination_deg: 97.444
+  mean_argument_of_perigee_deg: 82.094
+  mean_longitude_ascending_node_deg: 36.885
+  mean_mean_anomaly_deg: -21.595
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: ION SCV-021
+  sequence_number: 101
+  catid: 799501988
+  mission_time_s: 4556.560
+  date: 2025-11-10T19:34:56.550Z
+  r_ecef_m: [3046869.202, 1291673.441, 6036596.592]
+  v_ecef_m_per_s: [-5023.287, -4619.331, 3516.528]
+  mean_perigee_altitude_km: 501.756
+  mean_apogee_altitude_km: 518.356
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 84.823
+  mean_longitude_ascending_node_deg: 36.769
+  mean_mean_anomaly_deg: -22.605
+  ballistic_coef_kg_per_m2: 55.60
+  hard_body_radius_m: 1.08
+
+- name: FLOCK4H 17
+  sequence_number: 102
+  catid: 799501905
+  mission_time_s: 4649.160
+  date: 2025-11-10T19:36:29.150Z
+  r_ecef_m: [2563790.858, 861209.921, 6330081.728]
+  v_ecef_m_per_s: [-5401.753, -4668.815, 2816.379]
+  mean_perigee_altitude_km: 501.355
+  mean_apogee_altitude_km: 517.306
+  mean_inclination_deg: 97.440
+  mean_argument_of_perigee_deg: 92.629
+  mean_longitude_ascending_node_deg: 36.377
+  mean_mean_anomaly_deg: -24.545
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 4
+  sequence_number: 103
+  catid: 799501936
+  mission_time_s: 4670.360
+  date: 2025-11-10T19:36:50.350Z
+  r_ecef_m: [2448443.750, 762170.737, 6388061.758]
+  v_ecef_m_per_s: [-5480.803, -4673.033, 2652.029]
+  mean_perigee_altitude_km: 501.417
+  mean_apogee_altitude_km: 518.543
+  mean_inclination_deg: 97.440
+  mean_argument_of_perigee_deg: 90.954
+  mean_longitude_ascending_node_deg: 36.288
+  mean_mean_anomaly_deg: -21.530
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 24
+  sequence_number: 104
+  catid: 799501910
+  mission_time_s: 4758.860
+  date: 2025-11-10T19:38:18.850Z
+  r_ecef_m: [1949959.246, 348799.463, 6591950.363]
+  v_ecef_m_per_s: [-5775.510, -4660.681, 1951.949]
+  mean_perigee_altitude_km: 501.724
+  mean_apogee_altitude_km: 517.073
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 83.341
+  mean_longitude_ascending_node_deg: 35.930
+  mean_mean_anomaly_deg: -8.344
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 23
+  sequence_number: 105
+  catid: 799501911
+  mission_time_s: 4772.160
+  date: 2025-11-10T19:38:32.150Z
+  r_ecef_m: [1872868.455, 286857.373, 6617192.647]
+  v_ecef_m_per_s: [-5815.590, -4654.766, 1844.909]
+  mean_perigee_altitude_km: 501.721
+  mean_apogee_altitude_km: 518.301
+  mean_inclination_deg: 97.443
+  mean_argument_of_perigee_deg: 82.722
+  mean_longitude_ascending_node_deg: 35.874
+  mean_mean_anomaly_deg: -6.884
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 22
+  sequence_number: 106
+  catid: 799501912
+  mission_time_s: 4960.360
+  date: 2025-11-10T19:41:40.350Z
+  r_ecef_m: [734223.727, -573540.512, 6819405.271]
+  v_ecef_m_per_s: [-6239.145, -4454.400, 297.136]
+  mean_perigee_altitude_km: 501.602
+  mean_apogee_altitude_km: 514.466
+  mean_inclination_deg: 97.442
+  mean_argument_of_perigee_deg: 85.358
+  mean_longitude_ascending_node_deg: 35.087
+  mean_mean_anomaly_deg: 2.379
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 21
+  sequence_number: 107
+  catid: 799501913
+  mission_time_s: 4999.660
+  date: 2025-11-10T19:42:19.650Z
+  r_ecef_m: [487878.535, -747315.717, 6824652.734]
+  v_ecef_m_per_s: [-6293.928, -4387.899, -29.394]
+  mean_perigee_altitude_km: 501.554
+  mean_apogee_altitude_km: 517.317
+  mean_inclination_deg: 97.442
+  mean_argument_of_perigee_deg: 82.868
+  mean_longitude_ascending_node_deg: 34.927
+  mean_mean_anomaly_deg: 7.348
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 11
+  sequence_number: 108
+  catid: 799501945
+  mission_time_s: 5050.460
+  date: 2025-11-10T19:43:10.450Z
+  r_ecef_m: [166701.890, -967721.794, 6812396.273]
+  v_ecef_m_per_s: [-6346.478, -4288.490, -451.831]
+  mean_perigee_altitude_km: 501.525
+  mean_apogee_altitude_km: 518.382
+  mean_inclination_deg: 97.441
+  mean_argument_of_perigee_deg: 83.416
+  mean_longitude_ascending_node_deg: 34.715
+  mean_mean_anomaly_deg: 10.010
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FLOCK4H 9
+  sequence_number: 109
+  catid: 799501947
+  mission_time_s: 5246.260
+  date: 2025-11-10T19:46:26.250Z
+  r_ecef_m: [-1081777.506, -1760655.835, 6565894.030]
+  v_ecef_m_per_s: [-6353.147, -3780.262, -2055.191]
+  mean_perigee_altitude_km: 501.393
+  mean_apogee_altitude_km: 514.900
+  mean_inclination_deg: 97.441
+  mean_argument_of_perigee_deg: 80.907
+  mean_longitude_ascending_node_deg: 33.896
+  mean_mean_anomaly_deg: 24.897
+  ballistic_coef_kg_per_m2: 50.00
+  hard_body_radius_m: 0.47
+
+- name: FORMOSAT-8A
+  sequence_number: 110
+  catid: 799501901
+  mission_time_s: 8420.920
+  date: 2025-11-10T20:39:20.910Z
+  r_ecef_m: [3532330.262, 2145058.275, -5585877.430]
+  v_ecef_m_per_s: [6101.436, 1374.003, 4387.923]
+  mean_perigee_altitude_km: 552.985
+  mean_apogee_altitude_km: 567.714
+  mean_inclination_deg: 97.637
+  mean_argument_of_perigee_deg: 89.315
+  mean_longitude_ascending_node_deg: 20.820
+  mean_mean_anomaly_deg: -143.441
+  ballistic_coef_kg_per_m2: 100.70
+  hard_body_radius_m: 1.98
+
+- name: R5-S7
+  sequence_number: 111
+  catid: 799501960
+  mission_time_s: 9790.140
+  date: 2025-11-10T21:02:10.130Z
+  r_ecef_m: [5919657.260, 1104395.609, 3563090.110]
+  v_ecef_m_per_s: [-3162.080, -2186.628, 6340.312]
+  mean_perigee_altitude_km: -169.216
+  mean_apogee_altitude_km: 659.607
+  mean_inclination_deg: 97.629
+  mean_argument_of_perigee_deg: -123.311
+  mean_longitude_ascending_node_deg: 15.115
+  mean_mean_anomaly_deg: 150.973
+  ballistic_coef_kg_per_m2: 52.00
+  hard_body_radius_m: 0.23
