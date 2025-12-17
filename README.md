@@ -1,8 +1,14 @@
 # Launches
 [gr-satellites](https://gr-satellites.readthedocs.io/en/latest/) yaml file information on coming and previous launches.
+
 ___
 
-### [T15-10-11-2025](https://github.com/janvgils/Launches/tree/main/T15-10-11-2025): Transporter-15 Rideshare: VSFB SLC-4E - 10 November 2025 18:19 UTC
+### [SHN-19-12-2025](https://github.com/janvgils/Launches/tree/main/SNH-19-12-2025): Spaceward - HANBIT-NANO - 2025-12-19 18:45 UTC
+
+Follow [this link](https://community.libre.space/t/spaceward-hanbit-nano-2025-12-19-18-45-utc/14151) for further launch details that are shared on the SatNOGS community page.
+___
+
+### [T15-28-11-2025](https://github.com/janvgils/Launches/tree/main/T15-10-11-2025): Transporter-15 Rideshare: VSFB SLC-4E - 28 November 2025 18:44:30 UTC
 
 Follow [this link](https://community.libre.space/t/transporter-15-rideshare-vsfb-slc-4e-10-november-2025/13951) for further launch details that are shared on the SatNOGS community page.
 ___

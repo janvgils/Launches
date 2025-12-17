@@ -1,0 +1,13 @@
+name: FLORIPASAT-2A
+norad: 99999
+data:
+  &tlm Telemetry:
+    telemetry: floripasat
+transmitters:
+  1k2 FSK beacon:
+    frequency: 468.200e+6
+    modulation: FSK
+    baudrate: 1200
+    framing: NGHam no Reed Solomon
+    data:
+    - *tlm
