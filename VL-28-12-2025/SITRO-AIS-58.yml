@@ -1,13 +1,13 @@
-name: LUCA-1
+name: SITRO-AIS-58
 alternative_names:
-  - RS90S
+  - SC2359
 norad: 99999
 data:
   &tlm Telemetry:
     telemetry: ax25
 transmitters:
   2k4 FSK USP downlink:
-    frequency: 437.1800e+6
+    frequency: 401.0325e+6
     modulation: FSK
     baudrate: 2400
     deviation: 600

@@ -1,13 +1,13 @@
-name: LUCA-1
+name: SITRO-TD-3
 alternative_names:
-  - RS90S
+  - SC2345
 norad: 99999
 data:
   &tlm Telemetry:
     telemetry: ax25
 transmitters:
   2k4 FSK USP downlink:
-    frequency: 437.1800e+6
+    frequency: 401.1725e+6
     modulation: FSK
     baudrate: 2400
     deviation: 600

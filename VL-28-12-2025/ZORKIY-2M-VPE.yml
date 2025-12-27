@@ -1,13 +1,14 @@
-name: LUCA-1
+name: ZORKIY-2M-VPE
 alternative_names:
-  - RS90S
+  - A0X8A
+  - A0X8B
 norad: 99999
 data:
   &tlm Telemetry:
     telemetry: ax25
 transmitters:
   2k4 FSK USP downlink:
-    frequency: 437.1800e+6
+    frequency: 401.1800e+6
     modulation: FSK
     baudrate: 2400
     deviation: 600
