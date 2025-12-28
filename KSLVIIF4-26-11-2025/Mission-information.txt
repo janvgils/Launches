@@ -1,0 +1,28 @@
+Naro Space Center
+Coordinates: 34.43194°N 127.53500°E
+
+CAS500-3 & 12 cubesats
+
+Satellite list:
+
+CAS500-3
+
+SPIRONE		2U	Sejong University 98492 https://iaru.amsat-uk.org/finished_detail.php?serialnum=957 https://ae.sejong.ac.kr/page/sub4_2 9k6 AX25 GMSK 436.650 MHz and 2425.100 MHz 
+
+PERSAT01	3U	Quaternion 98491 no IARU coordination 437.125
+COSMIC		3U	Spacerotech
+JACK-003	3U	Cosmoworks
+JACK-004	3U	Cosmoworks
+
+INHA-ROSAT	3U	Inha University 98490 https://iaru.amsat-uk.org/formal_detail.php?serialnum=1034 9k6 GMSK 437.665/2417.000
+
+K-HERO		3U	KAIST no IARU coordination 98489 437.165
+SEJONG-4	6U	Hancom InSpace
+
+SNUGLITE-IIIa	6U	Seoul National University 98496 https://iaru.amsat-uk.org/finished_detail.php?serialnum=1012 https://snuglite1.wixsite.com/website 9k6 GFSK/GMSK 436.460 MHz and 2405.000 MHz
+
+SNUGLITE-IIIb	6U	Seoul National University https://iaru.amsat-uk.org/finished_detail.php?serialnum=1012 https://snuglite1.wixsite.com/website 9k6 GFSK/GMSK 436.788 MHz and 2405.000 MHz
+
+BEE-1000	6U	Space Lintech 98492 no IARU coordination FSK AX.100 Mode 5 436.500/2403.500 MHz
+ETRISat		6U	ETRI
+E3_TESTER_KARI-1   	12U   	KARI
