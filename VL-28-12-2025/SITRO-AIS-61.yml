@@ -1,7 +1,7 @@
 name: SITRO-AIS-61
 alternative_names:
   - SC2349
-norad: 99999
+norad: 98442
 data:
   &tlm Telemetry:
     telemetry: ax25

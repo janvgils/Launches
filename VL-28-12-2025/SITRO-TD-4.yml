@@ -1,7 +1,7 @@
 name: SITRO-TD-4
 alternative_names:
   - SC2354
-norad: 99999
+norad: 98436
 data:
   &tlm Telemetry:
     telemetry: ax25

@@ -1,7 +1,7 @@
 name: SAKHACUBE-CHOLBON
 alternative_names:
   - RS18S
-norad: 99999
+norad: 98450
 data:
   &tlm Telemetry:
     telemetry: ax25

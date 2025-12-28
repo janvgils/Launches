@@ -1,7 +1,7 @@
 name: LUCA-1
 alternative_names:
   - RS90S
-norad: 99999
+norad: 98449
 data:
   &tlm Telemetry:
     telemetry: ax25

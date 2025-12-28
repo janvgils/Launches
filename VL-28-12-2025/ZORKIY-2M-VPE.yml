@@ -2,7 +2,7 @@ name: ZORKIY-2M-VPE
 alternative_names:
   - A0X8A
   - A0X8B
-norad: 99999
+norad: 98435
 data:
   &tlm Telemetry:
     telemetry: ax25

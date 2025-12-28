@@ -2,7 +2,7 @@ name: ZORKIY-2M-5
 alternative_names:
   - A0X9A
   - A0X9B
-norad: 99999
+norad: 98434
 data:
   &tlm Telemetry:
     telemetry: ax25
