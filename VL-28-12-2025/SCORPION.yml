@@ -1,5 +1,5 @@
 name: SCORPION
-norad: 98427
+norad: 67291
 data:
   &tlm Telemetry:
     telemetry: ax25

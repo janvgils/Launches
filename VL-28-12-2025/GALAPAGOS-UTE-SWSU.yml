@@ -1,7 +1,7 @@
-name: GALAPAGOS
+name: GALAPAGOS-UTE-SWSU
 alternative_names:
   - HC1PX
-norad: 98428
+norad: 67279
 data:
   &tlm Telemetry:
     telemetry: ax25

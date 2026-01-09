@@ -1,5 +1,5 @@
 name: LOBACHEVSKY
-norad: 98429
+norad: 67282
 data:
    &tlm Telemetry:
      telemetry: ax25
