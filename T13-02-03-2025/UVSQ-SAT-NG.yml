@@ -1,5 +1,5 @@
 name: UVSQ-SAT-NG
-norad: 98638
+norad: 63251
 data:
   &tlm Telemetry:
     telemetry: ax25

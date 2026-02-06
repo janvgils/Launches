@@ -1,5 +1,5 @@
 name: TEVEL2-8
-norad: 98640
+norad: 63239
 data:
   &tlm Telemetry:
     telemetry: ax25
