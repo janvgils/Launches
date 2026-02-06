@@ -2,7 +2,7 @@ name: NASBSAT-1
 alternative_names:
   - S3809A
   - S3809B
-norad: 98431
+norad: 67289
 data:
   &tlm Telemetry:
     telemetry: ax25

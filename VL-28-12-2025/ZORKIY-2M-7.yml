@@ -2,7 +2,7 @@ name: ZORKIY-2M-7
 alternative_names:
   - A0XAA
   - A0XAB
-norad: 98433
+norad: 67268
 data:
   &tlm Telemetry:
     telemetry: ax25

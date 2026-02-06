@@ -1,7 +1,7 @@
 name: SITRO-TD-3
 alternative_names:
   - SC2345
-norad: 98437
+norad: 67270
 data:
   &tlm Telemetry:
     telemetry: ax25

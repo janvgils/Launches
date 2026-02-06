@@ -1,7 +1,7 @@
 name: SITRO-AIS-59
 alternative_names:
   - SC2356
-norad: 98444
+norad: 67257
 data:
   &tlm Telemetry:
     telemetry: ax25

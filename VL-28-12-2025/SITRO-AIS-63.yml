@@ -1,7 +1,7 @@
 name: SITRO-AIS-63
 alternative_names:
   - SC2351
-norad: 98440
+norad: 67294
 data:
   &tlm Telemetry:
     telemetry: ax25

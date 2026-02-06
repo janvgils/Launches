@@ -1,7 +1,7 @@
 name: SITRO-AIS-57
 alternative_names:
   - SC2371
-norad: 98446
+norad: 67256
 data:
   &tlm Telemetry:
     telemetry: ax25

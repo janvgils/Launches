@@ -1,7 +1,7 @@
 name: SITRO-AIS-65
 alternative_names:
   - SC2353
-norad: 98438
+norad: 67266
 data:
   &tlm Telemetry:
     telemetry: ax25

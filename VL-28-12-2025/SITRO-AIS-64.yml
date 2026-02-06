@@ -1,7 +1,7 @@
 name: SITRO-AIS-64
 alternative_names:
   - SC2352
-norad: 98439
+norad: 67292
 data:
   &tlm Telemetry:
     telemetry: ax25

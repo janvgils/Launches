@@ -1,7 +1,7 @@
 name: SITRO-AIS-58
 alternative_names:
   - SC2359
-norad: 98445
+norad: 67258
 data:
   &tlm Telemetry:
     telemetry: ax25
